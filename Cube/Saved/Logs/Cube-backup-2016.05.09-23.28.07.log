@@ -1,0 +1,989 @@
+﻿[2016.05.09-10.20.29:623][  0]Log file open, 05/09/16 19:20:29
+[2016.05.09-10.20.29:623][  0]LogInit:Display: Running engine for game: Cube
+[2016.05.09-10.20.29:623][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.09-10.20.29:623][  0]LogInit:Display: RandInit(-657637828) SRandInit(-657637827).
+[2016.05.09-10.20.29:623][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.09-10.20.29:623][  0]LogStats: Stats thread started at 0.076363
+[2016.05.09-10.20.29:623][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.09-10.20.29:623][  0]LogInit: API Version: 2758231
+[2016.05.09-10.20.29:623][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.05.09-10.20.29:623][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.09-10.20.29:623][  0]LogInit: Build Configuration: Development
+[2016.05.09-10.20.29:623][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.09-10.20.29:623][  0]LogInit: Command line: 
+[2016.05.09-10.20.29:623][  0]LogInit: Base directory: D:/unreal/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.09-10.20.29:623][  0]LogInit: Rocket: 1
+[2016.05.09-10.20.29:630][  0]LogInit: Using libcurl 7.41.0
+[2016.05.09-10.20.29:630][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.09-10.20.29:630][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.09-10.20.29:630][  0]LogInit:  - other features:
+[2016.05.09-10.20.29:630][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.09-10.20.29:630][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.09-10.20.29:630][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.09-10.20.29:630][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.09-10.20.29:630][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.09-10.20.29:630][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.09-10.20.29:630][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.09-10.20.29:630][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.09-10.20.29:630][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.09-10.20.29:630][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.09-10.20.29:636][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.09-10.20.29:641][  0]LogInit: Object subsystem initialized
+[2016.05.09-10.20.29:641][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-10.20.29:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-10.20.29:650][  0]LogInit: Computer: OWNER-PC
+[2016.05.09-10.20.29:650][  0]LogInit: User: Owner
+[2016.05.09-10.20.29:650][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.09-10.20.29:650][  0]LogInit: High frequency timer resolution =3.417983 MHz
+[2016.05.09-10.20.29:650][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-10.20.29:650][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-10.20.29:650][  0]LogMemory: Process Physical Memory: 57.06 MB used, 57.06 MB peak
+[2016.05.09-10.20.29:650][  0]LogMemory: Process Virtual Memory: 56.80 MB used, 56.80 MB peak
+[2016.05.09-10.20.29:650][  0]LogMemory: Physical Memory: 3625.69 MB used, 16312.00 MB total
+[2016.05.09-10.20.29:650][  0]LogMemory: Virtual Memory: 383.16 MB used, 134217728.00 MB total
+[2016.05.09-10.20.29:686][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.09-10.20.29:715][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.09-10.20.29:715][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.09-10.20.29:715][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.09-10.20.29:845][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.05.09-10.20.29:845][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2016.05.09-10.20.29:846][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.09-10.20.29:846][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.05.09-10.20.29:846][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.09-10.20.29:849][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.09-10.20.29:849][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-10.20.29:862][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-10.20.29:873][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Programming/unreal/Cube/Cube/Intermediate/Shaders/WorkingDirectory/10828/).
+[2016.05.09-10.20.29:873][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/1F0C5877451E0B01D64B6E93B6AD0BFD/'.
+[2016.05.09-10.20.29:873][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-10.20.30:573][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-10.20.30:578][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-10.20.30:582][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-10.20.30:586][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-10.20.30:590][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-10.20.30:593][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-10.20.30:595][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-10.20.30:598][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-10.20.30:601][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-10.20.30:604][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-10.20.30:607][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-10.20.30:613][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-10.20.30:613][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-10.20.30:614][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-10.20.30:630][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-10.20.30:632][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-10.20.30:634][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-10.20.30:637][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-10.20.30:637][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-10.20.30:712][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-10.20.30:748][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.09-10.20.30:749][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.09-10.20.30:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-10.20.30:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-10.20.30:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-10.20.30:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-10.20.30:799][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-10.20.30:812][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-10.20.30:959][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-10.20.30:961][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.09-10.20.31:049][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-10.20.31:049][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-10.20.31:228][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.09-10.20.31:939][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.09-10.20.32:046][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.05.09-10.20.32:181][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.09-10.20.32:242][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.09-10.20.32:254][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.09-10.20.32:265][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.09-10.20.32:500][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.09-10.20.32:500][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.05.09-10.20.32:547][  0]LogEngine: Initializing Engine...
+[2016.05.09-10.20.32:549][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.09-10.20.32:550][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.09-10.20.32:645][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.09-10.20.32:660][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.20.32:696][  0]LogInit: FAudioDevice initialized.
+[2016.05.09-10.20.32:717][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.09-10.20.32:719][  0]LogInit: Texture streaming: Enabled
+[2016.05.09-10.20.32:724][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.09-10.20.32:724][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.09-10.20.32:724][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 21d340464f5a0e663c335289d3284d81|f297ec04e09247fdb6017b25a3c484a7|c92d2da9-0d10-4f3f-b7e0-0cf9e2054bd7
+[2016.05.09-10.20.32:724][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.09-10.20.32:733][  0]LogInit: Transaction tracking system initialized
+[2016.05.09-10.20.32:755][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.09-10.20.32:948][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.09-10.20.33:020][  0]LogConsoleResponse:Display: 
+[2016.05.09-10.20.33:197][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.09-10.20.33:248][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/' took 0.01s
+[2016.05.09-10.20.33:248][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.09-10.20.33:248][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-10.20.33:249][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.09-10.20.33:251][  0]MapCheck: New page: 맵 체크
+[2016.05.09-10.20.33:251][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.09-10.20.33:260][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B7A1791C0
+[2016.05.09-10.20.33:750][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.05.09-10.20.33:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-10.20.33:759][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-10.20.33:812][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 53.343ms.
+[2016.05.09-10.20.33:813][  0]LogFileHelpers: Loading map 'Template_Default' took 0.564
+[2016.05.09-10.20.33:919][  0]LogCollectionManager: Loaded 0 collections in 0.001764 seconds
+[2016.05.09-10.20.33:960][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Saved/Collections/' took 0.01s
+[2016.05.09-10.20.33:960][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Developers/Owner/Collections/' took 0.01s
+[2016.05.09-10.20.33:960][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Collections/' took 0.01s
+[2016.05.09-10.20.33:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.05.09-10.20.33:966][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1893 classes and 338 folders.
+[2016.05.09-10.20.33:971][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.09-10.20.34:016][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.09-10.20.34:019][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-10.20.34:052][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.09-10.20.34:057][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.09-10.20.34:079][  0]LogLoad: Full Startup: 5.06 seconds (BP compile: 0.03 seconds)
+[2016.05.09-10.20.34:097][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.09-10.20.34:101][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.09-10.20.34:385][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.09-10.20.34:506][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2016.05.09-10.20.34:725][  2]LogAssetRegistry: Asset discovery search completed in 2.6905 seconds
+[2016.05.09-10.20.34:725][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.09-10.20.34:725][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2016.05.09-10.20.39:125][470]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.09-10.20.39:764][470]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.05.09-10.20.40:385][470]LogLinker:Warning: 애셋 이름을 해석할 수 없습니다.
+[2016.05.09-10.20.43:986][833]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:782).
+[2016.05.09-10.20.47:941][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.20.47:968][262]PIE: New page: PIE 세션: Untitled_1 (2016. 5. 10. 오전 4:20:47)
+[2016.05.09-10.20.47:968][262]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2016.05.09-10.20.47:980][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010916s)
+[2016.05.09-10.20.47:980][262]LogAIModule: Creating AISystem for world Untitled_1
+[2016.05.09-10.20.47:980][262]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2016.05.09-10.20.47:980][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.012128s)
+[2016.05.09-10.20.48:006][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B0A9FCFE0
+[2016.05.09-10.20.48:025][262]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.20.48:043][262]LogInit: FAudioDevice initialized.
+[2016.05.09-10.20.48:140][262]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.20.48:157][262]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.05.09-19.20.48
+[2016.05.09-10.20.48:157][262]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.20.48:168][262]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.20.48:168][262]LogWorld: Bringing up level for play took: 0.012193
+[2016.05.09-10.20.48:212][262]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.078
+[2016.05.09-10.20.50:031][459]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B23A33600
+[2016.05.09-10.20.51:949][678]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.20.51:973][678]Cmd: MAP LOAD FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-10.20.51:973][678]LightingResults: New page: 라이팅 빌드
+[2016.05.09-10.20.51:988][678]LoadErrors: New page: 맵 로드중: cube.umap
+[2016.05.09-10.20.51:988][678]MapCheck: New page: 맵 체크
+[2016.05.09-10.20.51:988][678]LightingResults: New page: 라이팅 빌드
+[2016.05.09-10.20.52:005][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B6B2AB920
+[2016.05.09-10.20.52:076][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-10.20.52:110][678]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-10.20.52:171][678]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.181ms.
+[2016.05.09-10.20.52:172][678]LogFileHelpers: Loading map 'cube' took 0.200
+[2016.05.09-10.20.53:455][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.20.53:455][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.20.53:455][830]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:20:53)
+[2016.05.09-10.20.53:455][830]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.20.53:459][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002923s)
+[2016.05.09-10.20.53:460][830]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.20.53:460][830]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2016.05.09-10.20.53:460][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.003720s)
+[2016.05.09-10.20.53:491][830]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.20.53:507][830]LogInit: FAudioDevice initialized.
+[2016.05.09-10.20.53:538][830]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.20.53:541][830]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.20.53
+[2016.05.09-10.20.53:541][830]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.20.53:541][830]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.20.53:541][830]LogWorld: Bringing up level for play took: 0.001977
+[2016.05.09-10.20.53:543][830]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.408
+[2016.05.09-10.20.53:543][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.20.54:844][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.20.54:899][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.20.54:918][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B6D3C34C0
+[2016.05.09-10.21.13:093][ 77]LogEditorViewport: Clicking on Actor (LMB): BaseCube_C (BaseCube)
+[2016.05.09-10.21.15:523][362]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.21.16:332][450]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.21.16:832][509]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.21.20:408][925]LogActorFactory: Actor Factory created Cube
+[2016.05.09-10.21.20:872][979]LogActorFactory: Actor Factory created Cube
+[2016.05.09-10.22.01:748][540]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.22.02:623][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.22.04:149][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.22.04:234][830]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.22.30:663][787]LogEditorViewport: Clicking on Actor (LMB): BaseCube_C (BaseCube)
+[2016.05.09-10.22.32:538][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.22.39:657][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.22.52:066][ 47]Cmd: TRANSACTION UNDO
+[2016.05.09-10.22.52:066][ 47]LogEditorTransaction: Undo Linear Damping 편집
+[2016.05.09-10.24.00:795][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.24.00:873][216]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.24.21:288][448]Cmd: DELETE
+[2016.05.09-10.24.21:288][448]Cmd: ACTOR DELETE
+[2016.05.09-10.24.21:398][448]LogEditorActor: Deleted Actor: Cube_Blueprint_C
+[2016.05.09-10.24.21:418][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B6AD44220
+[2016.05.09-10.24.21:418][448]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.05.09-10.24.24:037][749]Cmd: TRANSACTION UNDO
+[2016.05.09-10.24.24:037][749]LogEditorTransaction: Undo 액터 삭제
+[2016.05.09-10.24.26:344][  1]Cmd: TRANSACTION UNDO
+[2016.05.09-10.24.26:344][  1]LogEditorTransaction: Undo 액터를 블루프린트로 대체합니다.
+[2016.05.09-10.24.27:291][ 89]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.25.36:414][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeMoveRoute" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset" SILENT=true
+[2016.05.09-10.25.36:455][805]LogSavePackage: Save=24.319899ms
+[2016.05.09-10.25.36:455][805]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/CubeMoveRoute39F57A054F8FFBFEA836379F4A968251.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset'
+[2016.05.09-10.25.36:457][805]LogSavePackage: Total save time: 35.840731ms
+[2016.05.09-10.25.36:457][805]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset
+[2016.05.09-10.25.38:045][933]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.25.38:167][933]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.25.38:170][933]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.25.40:205][111]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 31 instructions
+[2016.05.09-10.25.40:205][111]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2016.05.09-10.25.40:205][111]MaterialEditorStats: 정보 Texture samplers: 0/16
+[2016.05.09-10.27.37:355][691]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.27.37:364][691]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.27.37:367][691]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.27.40:939][ 84]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.27.40:939][ 84]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.27.40:939][ 84]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.27.40:939][ 84]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.30.28:540][339]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.30.28:544][339]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.30.28:544][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.09-10.30.32:108][731]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.30.32:108][731]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.30.32:108][731]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.30.32:108][731]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.30.33:750][901]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.30.33:754][901]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.30.36:789][232]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.30.36:789][232]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.30.36:789][232]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.30.36:789][232]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.30.48:313][383]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.30.48:316][383]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.30.48:345][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.09-10.30.51:544][742]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.30.51:544][742]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.30.51:544][742]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.30.51:544][742]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.31.29:715][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.09-10.31.29:805][285]LogSavePackage: Save=65.685524ms
+[2016.05.09-10.31.29:806][285]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cube_Auto1DE2A0819466D0C17D3F824A69182D1DE.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap'
+[2016.05.09-10.31.29:807][285]LogSavePackage: Total save time: 90.518590ms
+[2016.05.09-10.31.29:807][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap
+[2016.05.09-10.31.29:816][285]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/cube' took 0.125
+[2016.05.09-10.31.29:816][285]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.125
+[2016.05.09-10.31.29:821][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cube_Blueprint] ([1] browsable assets)...
+[2016.05.09-10.31.29:839][285]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cube_Blueprint.Cube_Blueprint]
+[2016.05.09-10.31.29:839][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cube_Blueprint]
+[2016.05.09-10.31.29:839][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_Blueprint" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Cube_Blueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.09-10.31.29:869][285]LogSavePackage: Save=17.467611ms
+[2016.05.09-10.31.29:869][285]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/Cube_Blueprint_Auto158F2709146060E132F39F2A5B7C6946F.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Cube_Blueprint_Auto1.uasset'
+[2016.05.09-10.31.29:871][285]LogSavePackage: Total save time: 19.236200ms
+[2016.05.09-10.31.29:871][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Cube_Blueprint_Auto1.uasset
+[2016.05.09-10.31.29:874][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMaterial" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/NewMaterial_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.09-10.31.29:877][285]LogSavePackage: Save=1.246057ms
+[2016.05.09-10.31.29:877][285]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/NewMaterial_Auto10CFD266944DD2C6B35B81FB0638CC3F6.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/NewMaterial_Auto1.uasset'
+[2016.05.09-10.31.29:878][285]LogSavePackage: Total save time: 2.675846ms
+[2016.05.09-10.31.29:878][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/NewMaterial_Auto1.uasset
+[2016.05.09-10.31.29:878][285]LogFileHelpers: Auto-saving content packages took 0.061
+[2016.05.09-10.35.15:584][587]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.35.15:588][587]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.35.15:614][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.09-10.35.19:487][ 14]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.35.19:487][ 14]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.35.19:487][ 14]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.35.19:487][ 14]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.35.25:972][706]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.35.25:975][706]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.35.26:005][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.09-10.35.29:499][ 80]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.35.29:499][ 80]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.35.29:499][ 80]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.35.29:499][ 80]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.36.05:068][ 26]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.36.05:072][ 26]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.36.08:773][415]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.36.08:773][415]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.36.08:773][415]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.36.08:773][415]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.36.21:623][479]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.36.21:627][479]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.36.24:823][812]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.36.24:823][812]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.36.24:823][812]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.36.24:823][812]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.36.32:930][916]LogMaterialEditor: Saving and Compiling material CubeMoveRoute
+[2016.05.09-10.36.33:229][916]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.36.33:239][916]LogMaterial: 0.000164 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.36.33:269][916]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.36.33:278][916]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.36.33:282][916]LogMaterial: 0.000362 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.36.36:346][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeMoveRoute" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset" SILENT=true
+[2016.05.09-10.36.36:369][916]LogSavePackage: Save=8.993608ms
+[2016.05.09-10.36.36:369][916]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/CubeMoveRoute705D4EF64B5591A0551B4BADDF83319B.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset'
+[2016.05.09-10.36.36:371][916]LogSavePackage: Total save time: 13.604805ms
+[2016.05.09-10.36.36:371][916]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset
+[2016.05.09-10.36.36:377][916]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 45 instructions
+[2016.05.09-10.36.36:377][916]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 81 instructions
+[2016.05.09-10.36.36:377][916]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.36.36:377][916]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.36.43:937][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.09-10.36.55:879][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.37.04:862][199]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.37.05:194][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_1)
+[2016.05.09-10.37.05:282][243]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.37.11:236][951]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.11:236][951]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.15:595][439]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.15:595][439]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.16:719][552]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.37.16:969][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_1)
+[2016.05.09-10.37.17:056][585]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.37.20:710][ 20]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.20:710][ 20]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.21:828][133]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.37.24:776][485]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.24:776][485]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.29:227][997]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.29:227][997]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.30:789][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.37.31:067][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_1)
+[2016.05.09-10.37.31:148][198]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.37.37:481][951]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.37:481][951]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.38:136][  9]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.38:136][  9]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.37.43:767][646]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.37.45:889][900]Cmd: EDIT COPY
+[2016.05.09-10.37.46:219][936]Cmd: EDIT PASTE
+[2016.05.09-10.37.50:036][390]Cmd: EDIT PASTE
+[2016.05.09-10.37.50:571][451]Cmd: EDIT PASTE
+[2016.05.09-10.37.50:931][491]Cmd: EDIT PASTE
+[2016.05.09-10.37.51:423][547]Cmd: EDIT PASTE
+[2016.05.09-10.37.52:047][619]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.52:047][619]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.37.52:381][646]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.52:381][646]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.37.52:612][660]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.52:612][660]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.37.52:845][685]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.52:845][685]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.37.53:368][745]Cmd: TRANSACTION UNDO
+[2016.05.09-10.37.53:368][745]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.37.54:503][878]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.05.09-10.38.00:225][562]Cmd: TRANSACTION UNDO
+[2016.05.09-10.38.00:225][562]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.38.00:548][592]Cmd: TRANSACTION UNDO
+[2016.05.09-10.38.00:548][592]LogEditorTransaction: Undo 컴포넌트 이동
+[2016.05.09-10.38.03:602][947]Cmd: EDIT COPY
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:608][947]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:865][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.03:866][978]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.05:655][190]Cmd: TRANSACTION UNDO
+[2016.05.09-10.38.05:655][190]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.38.07:612][402]Cmd: EDIT COPY
+[2016.05.09-10.38.07:618][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:618][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:619][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:619][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:619][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:619][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:619][402]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:817][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:818][426]Cmd: EDIT PASTE
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.07:822][426]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMeshComponent0 or StaticMeshComponent /Engine/Transient.StaticMeshComponent0
+[2016.05.09-10.38.08:400][493]Cmd: TRANSACTION UNDO
+[2016.05.09-10.38.08:400][493]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2016.05.09-10.39.06:474][170]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.39.09:901][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.09:901][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.39.09:902][565]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:39:09)
+[2016.05.09-10.39.09:902][565]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.39.09:905][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003459s)
+[2016.05.09-10.39.09:906][565]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.39.09:906][565]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2016.05.09-10.39.09:906][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004515s)
+[2016.05.09-10.39.09:940][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B22CE1620
+[2016.05.09-10.39.09:940][565]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.39.09:957][565]LogInit: FAudioDevice initialized.
+[2016.05.09-10.39.09:993][565]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.39.09:996][565]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.39.09
+[2016.05.09-10.39.09:996][565]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.39.09:996][565]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.39.09:996][565]LogWorld: Bringing up level for play took: 0.002181
+[2016.05.09-10.39.09:998][565]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.864
+[2016.05.09-10.39.09:998][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.16:349][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.16:454][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.16:474][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B22DFD3A0
+[2016.05.09-10.39.21:409][313]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.05.09-10.39.22:177][392]Cmd: DELETE
+[2016.05.09-10.39.22:177][392]Cmd: ACTOR DELETE
+[2016.05.09-10.39.22:177][392]LogEditorActor: Deleted Actor: SpotLight
+[2016.05.09-10.39.22:197][392]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.05.09-10.39.23:437][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.23:437][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.39.23:437][540]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:39:23)
+[2016.05.09-10.39.23:437][540]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.39.23:440][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003119s)
+[2016.05.09-10.39.23:440][540]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.39.23:441][540]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2016.05.09-10.39.23:441][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004273s)
+[2016.05.09-10.39.23:472][540]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.39.23:488][540]LogInit: FAudioDevice initialized.
+[2016.05.09-10.39.23:523][540]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.39.23:525][540]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.39.23
+[2016.05.09-10.39.23:525][540]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.39.23:525][540]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.39.23:526][540]LogWorld: Bringing up level for play took: 0.001942
+[2016.05.09-10.39.23:527][540]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.393
+[2016.05.09-10.39.23:527][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.24:973][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.25:003][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.39.25:041][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B22977740
+[2016.05.09-10.41.38:645][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.09-10.41.38:713][349]LogSavePackage: Save=63.986858ms
+[2016.05.09-10.41.38:713][349]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cube_Auto2298B98C644E0A3C722DBFAA0E2E73255.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto2.umap'
+[2016.05.09-10.41.38:714][349]LogSavePackage: Total save time: 67.652471ms
+[2016.05.09-10.41.38:714][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto2.umap
+[2016.05.09-10.41.38:716][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/cube' took 0.094
+[2016.05.09-10.41.38:716][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2016.05.09-10.41.55:300][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.43.03:123][378]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.43.03:491][419]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2016.05.09-10.43.04:191][499]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.43.04:252][503]LogEditorViewport: Clicking on Actor (double click): TargetPoint (TargetPoint3)
+[2016.05.09-10.43.13:275][556]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2016.05.09-10.43.18:423][145]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint5)
+[2016.05.09-10.43.23:231][698]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint6)
+[2016.05.09-10.43.29:729][427]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2016.05.09-10.43.34:418][946]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2016.05.09-10.43.37:060][237]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2016.05.09-10.43.40:190][581]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2016.05.09-10.44.53:795][359]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.44.54:847][482]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.44.55:224][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_y)
+[2016.05.09-10.44.56:636][691]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint_yP)
+[2016.05.09-10.44.57:923][842]Cmd: TRANSACTION UNDO
+[2016.05.09-10.44.57:923][842]LogEditorTransaction: Undo 액터 클릭
+[2016.05.09-10.45.07:646][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.08:413][ 69]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.09:377][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.09:904][245]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2016.05.09-10.45.10:244][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_y)
+[2016.05.09-10.45.10:883][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.13:845][685]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2016.05.09-10.45.31:814][818]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.32:956][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.33:384][  2]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
+[2016.05.09-10.45.42:354][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.42:774][100]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
+[2016.05.09-10.45.55:274][583]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.45.55:709][632]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint6)
+[2016.05.09-10.46.02:870][486]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint5)
+[2016.05.09-10.46.12:848][679]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.46.14:237][831]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.46.16:671][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.46.23:296][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.23:296][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.46.23:296][897]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:46:23)
+[2016.05.09-10.46.23:296][897]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.46.23:300][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003834s)
+[2016.05.09-10.46.23:301][897]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.46.23:301][897]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2016.05.09-10.46.23:302][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.005249s)
+[2016.05.09-10.46.23:335][897]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.46.23:352][897]LogInit: FAudioDevice initialized.
+[2016.05.09-10.46.23:389][897]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.46.23:392][897]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.46.23
+[2016.05.09-10.46.23:392][897]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.46.23:392][897]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.46.23:393][897]LogWorld: Bringing up level for play took: 0.002877
+[2016.05.09-10.46.23:394][897]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.259
+[2016.05.09-10.46.23:394][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.26:506][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.26:554][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.26:575][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B43571EE0
+[2016.05.09-10.46.27:600][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_y)
+[2016.05.09-10.46.28:457][416]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-10.46.28:521][416]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-10.46.28:524][416]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.46.28:551][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.05.09-10.46.32:047][745]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.09-10.46.32:047][745]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 61 instructions
+[2016.05.09-10.46.32:047][745]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.46.32:047][745]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.46.36:497][163]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-10.46.36:500][163]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.46.37:530][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.09-10.46.37:610][252]LogSavePackage: Save=58.001457ms
+[2016.05.09-10.46.37:610][252]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cube771F82344F6E9AF936647BA54D1B3840.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap'
+[2016.05.09-10.46.37:613][252]LogSavePackage: Total save time: 61.925407ms
+[2016.05.09-10.46.37:613][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap
+[2016.05.09-10.46.37:634][252]LogFileHelpers: Saving map 'cube' took 0.195
+[2016.05.09-10.46.37:653][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_Blueprint" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/Cube_Blueprint.uasset" SILENT=true
+[2016.05.09-10.46.37:672][252]LogSavePackage: Save=16.809328ms
+[2016.05.09-10.46.37:672][252]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/Cube_Blueprint3116361043CFC092342DD68E4113410B.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/Cube_Blueprint.uasset'
+[2016.05.09-10.46.37:674][252]LogSavePackage: Total save time: 19.222450ms
+[2016.05.09-10.46.37:674][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/Cube_Blueprint.uasset
+[2016.05.09-10.46.37:679][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMaterial" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/NewMaterial.uasset" SILENT=true
+[2016.05.09-10.46.37:682][252]LogSavePackage: Save=1.311007ms
+[2016.05.09-10.46.37:682][252]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/NewMaterial6848223A4DFEC73603988291B89D9EE3.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/NewMaterial.uasset'
+[2016.05.09-10.46.37:684][252]LogSavePackage: Total save time: 3.574915ms
+[2016.05.09-10.46.37:684][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/NewMaterial.uasset
+[2016.05.09-10.46.38:421][324]LogMaterialEditor: Saving and Compiling material CubeMoveRoute
+[2016.05.09-10.46.38:715][324]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-10.46.38:725][324]LogMaterial: 0.000020 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.46.38:743][324]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.46.38:752][324]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.09-10.46.38:757][324]LogMaterial: 0.000410 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-10.46.41:819][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeMoveRoute" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset" SILENT=true
+[2016.05.09-10.46.41:832][324]LogSavePackage: Save=9.134335ms
+[2016.05.09-10.46.41:832][324]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/CubeMoveRoute1348041C482D42DB4CB1CABE1E279803.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset'
+[2016.05.09-10.46.41:835][324]LogSavePackage: Total save time: 13.711888ms
+[2016.05.09-10.46.41:835][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/CubeMoveRoute.uasset
+[2016.05.09-10.46.41:839][324]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 45 instructions
+[2016.05.09-10.46.41:839][324]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 81 instructions
+[2016.05.09-10.46.41:839][324]MaterialEditorStats: 정보 Vertex shader: 68 instructions
+[2016.05.09-10.46.41:839][324]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.05.09-10.46.43:672][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.43:672][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.46.43:672][523]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:46:43)
+[2016.05.09-10.46.43:672][523]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.46.43:675][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003024s)
+[2016.05.09-10.46.43:676][523]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.46.43:676][523]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2016.05.09-10.46.43:676][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.003969s)
+[2016.05.09-10.46.43:693][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B43572FC0
+[2016.05.09-10.46.43:710][523]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.46.43:726][523]LogInit: FAudioDevice initialized.
+[2016.05.09-10.46.43:761][523]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.46.43:765][523]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.46.43
+[2016.05.09-10.46.43:765][523]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.46.43:765][523]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.46.43:765][523]LogWorld: Bringing up level for play took: 0.002758
+[2016.05.09-10.46.43:766][523]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.632
+[2016.05.09-10.46.43:766][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.45:032][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.45:079][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.46.45:098][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B420484A0
+[2016.05.09-10.47.00:604][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.00:604][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.47.00:604][516]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:47:00)
+[2016.05.09-10.47.00:604][516]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.47.00:607][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003342s)
+[2016.05.09-10.47.00:608][516]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.47.00:608][516]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2016.05.09-10.47.00:609][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004583s)
+[2016.05.09-10.47.00:640][516]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.47.00:656][516]LogInit: FAudioDevice initialized.
+[2016.05.09-10.47.00:692][516]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.47.00:695][516]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.47.00
+[2016.05.09-10.47.00:695][516]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.00:696][516]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.00:696][516]LogWorld: Bringing up level for play took: 0.002613
+[2016.05.09-10.47.00:697][516]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.437
+[2016.05.09-10.47.00:697][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.02:905][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.02:960][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.03:012][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B4204B600
+[2016.05.09-10.47.18:510][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.18:510][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.47.18:510][609]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:47:18)
+[2016.05.09-10.47.18:510][609]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.47.18:513][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003208s)
+[2016.05.09-10.47.18:514][609]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.47.18:514][609]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2016.05.09-10.47.18:514][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004200s)
+[2016.05.09-10.47.18:575][609]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.47.18:591][609]LogInit: FAudioDevice initialized.
+[2016.05.09-10.47.18:629][609]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.47.18:633][609]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.47.18
+[2016.05.09-10.47.18:633][609]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.18:633][609]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.18:633][609]LogWorld: Bringing up level for play took: 0.002649
+[2016.05.09-10.47.18:634][609]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.5
+[2016.05.09-10.47.18:634][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.24:073][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.24:124][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.24:148][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B23A319E0
+[2016.05.09-10.47.28:509][603]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.47.28:930][647]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.47.29:332][694]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.05.09-10.47.39:255][846]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.39:255][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.47.39:255][846]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:47:39)
+[2016.05.09-10.47.39:255][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.47.39:258][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003389s)
+[2016.05.09-10.47.39:259][846]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.47.39:259][846]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2016.05.09-10.47.39:259][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004303s)
+[2016.05.09-10.47.39:319][846]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.47.39:335][846]LogInit: FAudioDevice initialized.
+[2016.05.09-10.47.39:374][846]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.47.39:377][846]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.47.39
+[2016.05.09-10.47.39:377][846]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.39:377][846]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.39:377][846]LogWorld: Bringing up level for play took: 0.002657
+[2016.05.09-10.47.39:379][846]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.245
+[2016.05.09-10.47.39:379][846]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.41:009][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.41:058][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.41:079][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B2807F7E0
+[2016.05.09-10.47.45:019][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.45:019][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.47.45:019][473]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:47:45)
+[2016.05.09-10.47.45:019][473]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.47.45:023][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003467s)
+[2016.05.09-10.47.45:023][473]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.47.45:024][473]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2016.05.09-10.47.45:024][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004592s)
+[2016.05.09-10.47.45:080][473]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.47.45:096][473]LogInit: FAudioDevice initialized.
+[2016.05.09-10.47.45:135][473]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.47.45:138][473]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.47.45
+[2016.05.09-10.47.45:138][473]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.45:139][473]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.45:139][473]LogWorld: Bringing up level for play took: 0.002971
+[2016.05.09-10.47.45:140][473]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.006
+[2016.05.09-10.47.45:140][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.46:070][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.46:124][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.46:160][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B22C9C360
+[2016.05.09-10.47.56:880][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.47.56:880][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-10.47.56:880][835]PIE: New page: PIE 세션: cube (2016. 5. 10. 오전 4:47:56)
+[2016.05.09-10.47.56:880][835]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.09-10.47.56:884][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003113s)
+[2016.05.09-10.47.56:884][835]LogAIModule: Creating AISystem for world cube
+[2016.05.09-10.47.56:885][835]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2016.05.09-10.47.56:885][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.004212s)
+[2016.05.09-10.47.56:942][835]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-10.47.56:958][835]LogInit: FAudioDevice initialized.
+[2016.05.09-10.47.56:995][835]LogWorld: Game class is 'GameMode'
+[2016.05.09-10.47.56:999][835]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.09-19.47.56
+[2016.05.09-10.47.56:999][835]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.56:999][835]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.09-10.47.56:999][835]LogWorld: Bringing up level for play took: 0.002721
+[2016.05.09-10.47.57:000][835]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.134
+[2016.05.09-10.47.57:001][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.48.04:750][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.48.04:825][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.09-10.48.04:866][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B23040C20
+[2016.05.09-10.48.09:741][ 36]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.05.09-10.48.13:461][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.48.14:734][627]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.48.15:218][684]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.48.15:721][743]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2016.05.09-10.48.19:909][233]Cmd: SELECT NONE
+[2016.05.09-10.49.57:514][707]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.09-10.49.58:127][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.09-10.49.58:206][763]LogSavePackage: Save=55.502617ms
+[2016.05.09-10.49.58:206][763]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cubeB50164144A6E93A9197FC09DB54CE762.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap'
+[2016.05.09-10.49.58:209][763]LogSavePackage: Total save time: 61.668240ms
+[2016.05.09-10.49.58:209][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap
+[2016.05.09-10.49.58:224][763]LogFileHelpers: Saving map 'cube' took 0.164
+[2016.05.09-10.50.00:068][950]Cmd: QUIT_EDITOR
+[2016.05.09-10.50.00:844][950]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.09-10.50.00:896][950]LogExit: Preparing to exit.
+[2016.05.09-10.50.01:462][950]LogActorComponent: UnregisterComponent: (None.StaticMeshComponent_13) Not registered. Aborting.
+[2016.05.09-10.50.01:502][950]LogExit: Editor shut down
+[2016.05.09-10.50.01:502][950]LogExit: Transaction tracking system shut down
+[2016.05.09-10.50.01:503][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B6D7C3880
+[2016.05.09-10.50.01:503][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B0A9FF420
+[2016.05.09-10.50.01:505][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B23C9E8E0
+[2016.05.09-10.50.01:507][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B6ACFAD40
+[2016.05.09-10.50.01:507][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000028B224023E0
+[2016.05.09-10.50.01:657][950]LogExit: Object subsystem successfully closed.
+[2016.05.09-10.50.01:669][950]LogD3D11RHI: Shutdown
+[2016.05.09-10.50.01:669][950]LogD3D11RHI: CleanupD3DDevice
+[2016.05.09-10.50.01:717][950]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.05.09-10.50.01:730][950]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.05.09-10.50.01:733][950]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.05.09-10.50.01:733][950]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.05.09-10.50.01:733][950]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.05.09-10.50.01:733][950]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.05.09-10.50.01:733][950]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.05.09-10.50.01:734][950]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.05.09-10.50.02:502][950]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.05.09-10.50.02:503][950]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.05.09-10.50.02:509][950]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.05.09-10.50.02:523][950]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.05.09-10.50.02:524][950]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.05.09-10.50.02:526][950]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.05.09-10.50.02:559][950]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.05.09-10.50.02:560][950]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.05.09-10.50.02:560][950]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.05.09-10.50.02:660][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.05.09-10.50.02:660][950]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.05.09-10.50.02:660][950]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.05.09-10.50.02:662][950]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.05.09-10.50.02:662][950]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.05.09-10.50.02:663][950]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.05.09-10.50.02:664][950]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.05.09-10.50.02:720][950]LogDerivedDataCache: Shutdown
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.09-10.50.02:720][950]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.09-10.50.04:722][950]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.09-10.50.04:729][950]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.09-10.50.04:731][950]LogExit: Exiting.
+[2016.05.09-10.50.04:739][950]Log file closed, 05/09/16 19:50:04
