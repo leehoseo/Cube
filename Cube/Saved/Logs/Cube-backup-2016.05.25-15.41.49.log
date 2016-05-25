@@ -1,0 +1,1167 @@
+﻿[2016.05.24-11.55.23:079][  0]Log file open, 05/24/16 20:55:23
+[2016.05.24-11.55.23:079][  0]LogInit:Display: Running engine without a game
+[2016.05.24-11.55.23:079][  0]LogPlatformFile: Not using cached read wrapper
+[2016.05.24-11.55.23:079][  0]LogInit:Display: Loading recent project file: ../../../../../../Programming/unreal/Cube/Cube/Cube.uproject
+[2016.05.24-11.55.23:079][  0]LogInit:Display: RandInit(1030246369) SRandInit(1030246370).
+[2016.05.24-11.55.23:079][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.05.24-11.55.23:079][  0]LogStats: Stats thread started at 0.142547
+[2016.05.24-11.55.23:079][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.24-11.55.23:079][  0]LogInit: API Version: 2758231
+[2016.05.24-11.55.23:079][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.05.24-11.55.23:079][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.05.24-11.55.23:079][  0]LogInit: Build Configuration: Development
+[2016.05.24-11.55.23:079][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.05.24-11.55.23:079][  0]LogInit: Command line: 
+[2016.05.24-11.55.23:079][  0]LogInit: Base directory: D:/unreal/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.05.24-11.55.23:079][  0]LogInit: Rocket: 1
+[2016.05.24-11.55.23:126][  0]LogInit: Using libcurl 7.41.0
+[2016.05.24-11.55.23:126][  0]LogInit:  - built for x86_64-pc-win32
+[2016.05.24-11.55.23:126][  0]LogInit:  - supports SSL with WinSSL
+[2016.05.24-11.55.23:126][  0]LogInit:  - other features:
+[2016.05.24-11.55.23:126][  0]LogInit:      CURL_VERSION_SSL
+[2016.05.24-11.55.23:126][  0]LogInit:      CURL_VERSION_IPV6
+[2016.05.24-11.55.23:126][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.05.24-11.55.23:126][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.05.24-11.55.23:126][  0]LogInit:      CURL_VERSION_IDN
+[2016.05.24-11.55.23:126][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.05.24-11.55.23:126][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.05.24-11.55.23:126][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.05.24-11.55.23:126][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.05.24-11.55.23:126][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.05.24-11.55.23:158][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.05.24-11.55.23:158][  0]LogInit: Object subsystem initialized
+[2016.05.24-11.55.23:158][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.24-11.55.23:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.24-11.55.23:172][  0]LogInit: Computer: OWNER-PC
+[2016.05.24-11.55.23:172][  0]LogInit: User: Owner
+[2016.05.24-11.55.23:172][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.05.24-11.55.23:172][  0]LogInit: High frequency timer resolution =3.417983 MHz
+[2016.05.24-11.55.23:172][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.24-11.55.23:172][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.24-11.55.23:172][  0]LogMemory: Process Physical Memory: 57.02 MB used, 57.02 MB peak
+[2016.05.24-11.55.23:172][  0]LogMemory: Process Virtual Memory: 56.70 MB used, 56.70 MB peak
+[2016.05.24-11.55.23:172][  0]LogMemory: Physical Memory: 2867.64 MB used, 16312.00 MB total
+[2016.05.24-11.55.23:172][  0]LogMemory: Virtual Memory: 382.16 MB used, 134217728.00 MB total
+[2016.05.24-11.55.23:338][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.24-11.55.23:370][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.24-11.55.23:370][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.24-11.55.23:370][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.10/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.24-11.55.23:539][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.05.24-11.55.23:539][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2016.05.24-11.55.23:543][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.05.24-11.55.23:543][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.05.24-11.55.23:543][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.05.24-11.55.23:546][  0]LogD3D11RHI: !Direct3DDevice
+[2016.05.24-11.55.23:546][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.24-11.55.23:560][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.24-11.55.23:575][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Programming/unreal/Cube/Cube/Intermediate/Shaders/WorkingDirectory/1856/).
+[2016.05.24-11.55.23:575][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/3D5D90444F5EF733E610E39FDA519F19/'.
+[2016.05.24-11.55.23:575][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.24-11.55.24:765][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.24-11.55.24:770][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.24-11.55.24:774][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.24-11.55.24:779][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.24-11.55.24:784][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.24-11.55.24:787][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.24-11.55.24:790][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.24-11.55.24:793][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.24-11.55.24:797][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.24-11.55.24:800][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.24-11.55.24:803][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.24-11.55.24:809][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.24-11.55.24:809][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.24-11.55.24:810][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.24-11.55.24:853][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.24-11.55.24:855][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.24-11.55.24:858][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.24-11.55.24:861][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.24-11.55.24:861][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.24-11.55.25:149][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.24-11.55.25:312][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.24-11.55.25:313][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.05.24-11.55.25:313][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.24-11.55.25:313][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.24-11.55.25:313][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.24-11.55.25:313][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.24-11.55.25:433][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.24-11.55.25:447][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.24-11.55.30:279][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.24-11.55.30:373][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.05.24-11.55.31:447][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.24-11.55.31:447][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.24-11.55.33:457][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.24-11.55.39:137][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.24-11.55.39:576][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2016.05.24-11.55.42:475][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.24-11.55.42:565][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.24-11.55.42:690][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.24-11.55.42:724][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.24-11.55.43:543][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.05.24-11.55.43:543][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.05.24-11.55.44:000][  0]LogEngine: Initializing Engine...
+[2016.05.24-11.55.44:023][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.24-11.55.44:061][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.05.24-11.55.44:685][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.24-11.55.44:833][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-11.55.44:882][  0]LogInit: FAudioDevice initialized.
+[2016.05.24-11.55.44:954][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/Owner/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.05.24-11.55.44:964][  0]LogInit: Texture streaming: Enabled
+[2016.05.24-11.55.45:063][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.05.24-11.55.45:063][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.05.24-11.55.45:063][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 21d340464f5a0e663c335289d3284d81|f297ec04e09247fdb6017b25a3c484a7|c92d2da9-0d10-4f3f-b7e0-0cf9e2054bd7
+[2016.05.24-11.55.45:078][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.05.24-11.55.45:109][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.24-11.55.45:275][  0]LogInit: Transaction tracking system initialized
+[2016.05.24-11.55.46:490][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.24-11.55.48:238][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.24-11.55.49:185][  0]LogConsoleResponse:Display: 
+[2016.05.24-11.55.51:735][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/' took 0.10s
+[2016.05.24-11.55.51:735][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.24-11.55.53:379][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.24-11.55.53:440][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.24-11.55.53:648][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.24-11.55.53:916][  0]MapCheck: New page: 맵 체크
+[2016.05.24-11.55.53:916][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.24-11.55.54:290][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001523A35EAC0
+[2016.05.24-11.55.56:545][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.05.24-11.55.57:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.24-11.55.57:180][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.24-11.55.57:320][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 139.59ms.
+[2016.05.24-11.55.57:320][  0]LogFileHelpers: Loading map 'Template_Default' took 3.889
+[2016.05.24-11.55.58:637][  0]LogCollectionManager: Loaded 0 collections in 0.001981 seconds
+[2016.05.24-11.55.58:816][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Saved/Collections/' took 0.01s
+[2016.05.24-11.55.58:816][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Developers/Owner/Collections/' took 0.01s
+[2016.05.24-11.55.58:816][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Collections/' took 0.01s
+[2016.05.24-11.55.58:816][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.24-11.55.58:830][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 1893 classes and 338 folders.
+[2016.05.24-11.55.58:898][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.24-11.55.59:747][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.24-11.55.59:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.24-11.56.00:393][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.24-11.56.00:491][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.24-11.56.00:547][  0]LogLoad: Full Startup: 38.48 seconds (BP compile: 0.43 seconds)
+[2016.05.24-11.56.00:585][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.05.24-11.56.00:975][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.24-11.56.01:593][  0]LogRenderer: Reallocating scene render targets to support 1172x568 (Frame:2).
+[2016.05.24-11.56.02:345][  3]LogAssetRegistry: Asset discovery search completed in 22.7816 seconds
+[2016.05.24-11.56.02:358][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.24-11.56.02:358][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2016.05.24-11.57.14:703][467]LogAIModule: Creating AISystem for world cube
+[2016.05.24-11.57.14:752][467]Cmd: MAP LOAD FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.24-11.57.14:753][467]LightingResults: New page: 라이팅 빌드
+[2016.05.24-11.57.14:772][467]LoadErrors: New page: 맵 로드중: cube.umap
+[2016.05.24-11.57.14:776][467]MapCheck: New page: 맵 체크
+[2016.05.24-11.57.14:776][467]LightingResults: New page: 라이팅 빌드
+[2016.05.24-11.57.14:803][467]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001522C6DB9C0
+[2016.05.24-11.57.14:924][467]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.24-11.57.14:944][467]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.24-11.57.14:998][467]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 54.267ms.
+[2016.05.24-11.57.14:998][467]LogFileHelpers: Loading map 'cube' took 0.251
+[2016.05.24-11.57.20:303][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.57.20:303][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.24-11.57.20:328][ 64]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 5:57:20)
+[2016.05.24-11.57.20:328][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-11.57.20:415][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086384s)
+[2016.05.24-11.57.20:415][ 64]LogAIModule: Creating AISystem for world cube
+[2016.05.24-11.57.20:415][ 64]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2016.05.24-11.57.20:415][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.087574s)
+[2016.05.24-11.57.20:448][ 64]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-11.57.20:469][ 64]LogInit: FAudioDevice initialized.
+[2016.05.24-11.57.20:567][ 64]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-11.57.20:584][ 64]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-20.57.20
+[2016.05.24-11.57.20:584][ 64]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.57.20:585][ 64]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.57.20:585][ 64]LogWorld: Bringing up level for play took: 0.003372
+[2016.05.24-11.57.20:662][ 64]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.467
+[2016.05.24-11.57.20:662][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.57.26:352][736]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.26:352][736]LogBlueprintUserMessages: [MyCube_C_0] turn true
+[2016.05.24-11.57.27:232][842]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.27:474][871]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.28:182][956]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.28:391][981]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.28:882][ 40]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.29:541][119]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.29:849][156]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.30:074][183]LogBlueprintUserMessages: [MoveCube_C_0] Hello
+[2016.05.24-11.57.30:626][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.57.30:687][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.57.30:698][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001524C995C60
+[2016.05.24-11.57.38:390][ 49]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.05.24-11.57.39:046][ 49]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.05.24-11.58.22:222][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.22:222][384]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-11.58.22:241][384]LogPlayLevel: [PlayLevel] Compiling MoveCube before play...
+[2016.05.24-11.58.22:396][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (4 blueprints)
+[2016.05.24-11.58.22:397][384]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-11.58.22:518][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 296 ms (4 blueprints)
+[2016.05.24-11.58.22:520][384]LogPlayLevel: [PlayLevel] Compiling MyCube before play...
+[2016.05.24-11.58.22:654][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 432 ms (4 blueprints)
+[2016.05.24-11.58.22:655][384]LogPlayLevel: [PlayLevel] Compiling MyGameMode before play...
+[2016.05.24-11.58.22:797][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 575 ms (4 blueprints)
+[2016.05.24-11.58.22:821][384]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 5:58:22)
+[2016.05.24-11.58.22:821][384]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-11.58.22:901][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079617s)
+[2016.05.24-11.58.22:901][384]LogAIModule: Creating AISystem for world cube
+[2016.05.24-11.58.22:902][384]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2016.05.24-11.58.22:902][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.080478s)
+[2016.05.24-11.58.22:935][384]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-11.58.22:954][384]LogInit: FAudioDevice initialized.
+[2016.05.24-11.58.22:986][384]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-11.58.22:989][384]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-20.58.22
+[2016.05.24-11.58.22:989][384]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.58.22:989][384]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.58.22:989][384]LogWorld: Bringing up level for play took: 0.002987
+[2016.05.24-11.58.22:991][384]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.137
+[2016.05.24-11.58.22:991][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.25:310][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.25:343][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.25:389][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015278A4B740
+[2016.05.24-11.58.45:134][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.45:134][746]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-11.58.45:144][746]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-11.58.45:269][746]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (1 blueprints)
+[2016.05.24-11.58.45:291][746]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 5:58:45)
+[2016.05.24-11.58.45:291][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-11.58.45:371][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079775s)
+[2016.05.24-11.58.45:371][746]LogAIModule: Creating AISystem for world cube
+[2016.05.24-11.58.45:372][746]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2016.05.24-11.58.45:372][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.080717s)
+[2016.05.24-11.58.45:405][746]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-11.58.45:424][746]LogInit: FAudioDevice initialized.
+[2016.05.24-11.58.45:460][746]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-11.58.45:463][746]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-20.58.45
+[2016.05.24-11.58.45:464][746]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.58.45:464][746]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-11.58.45:464][746]LogWorld: Bringing up level for play took: 0.002761
+[2016.05.24-11.58.45:465][746]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.337
+[2016.05.24-11.58.45:466][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.48:505][ 49]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.48:505][ 49]LogBlueprintUserMessages: [MyCube_C_5] turn true
+[2016.05.24-11.58.50:288][236]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.50:608][270]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.50:825][293]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.51:127][324]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.51:224][334]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.51:352][347]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.51:766][391]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.51:825][397]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.52:200][436]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.52:454][463]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.52:793][497]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.53:111][530]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.53:507][572]LogBlueprintUserMessages: [MoveCube_C_2] Hello
+[2016.05.24-11.58.55:770][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.55:810][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-11.58.55:938][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015278C51300
+[2016.05.24-11.59.02:543][489]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.01.35:284][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.01.35:284][519]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-12.01.35:295][519]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-12.01.35:417][519]LogPlayLevel: PlayLevel: Blueprint regeneration took 133 ms (1 blueprints)
+[2016.05.24-12.01.35:442][519]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 6:01:35)
+[2016.05.24-12.01.35:442][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-12.01.35:522][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080625s)
+[2016.05.24-12.01.35:523][519]LogAIModule: Creating AISystem for world cube
+[2016.05.24-12.01.35:523][519]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2016.05.24-12.01.35:523][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.081509s)
+[2016.05.24-12.01.35:557][519]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-12.01.35:576][519]LogInit: FAudioDevice initialized.
+[2016.05.24-12.01.35:608][519]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-12.01.35:611][519]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-21.01.35
+[2016.05.24-12.01.35:611][519]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.01.35:612][519]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.01.35:612][519]LogWorld: Bringing up level for play took: 0.002893
+[2016.05.24-12.01.35:613][519]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.485
+[2016.05.24-12.01.35:613][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.01.38:526][806]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.01.38:526][806]LogBlueprintUserMessages: [MyCube_C_6] turn true
+[2016.05.24-12.01.39:680][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.01.39:719][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.01.39:854][924]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001520163C180
+[2016.05.24-12.02.15:215][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.02.15:215][817]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-12.02.15:225][817]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-12.02.15:347][817]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2016.05.24-12.02.15:371][817]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 6:02:15)
+[2016.05.24-12.02.15:371][817]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-12.02.15:450][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079423s)
+[2016.05.24-12.02.15:451][817]LogAIModule: Creating AISystem for world cube
+[2016.05.24-12.02.15:451][817]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2016.05.24-12.02.15:451][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.080602s)
+[2016.05.24-12.02.15:486][817]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-12.02.15:504][817]LogInit: FAudioDevice initialized.
+[2016.05.24-12.02.15:540][817]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-12.02.15:543][817]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-21.02.15
+[2016.05.24-12.02.15:544][817]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.02.15:544][817]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.02.15:544][817]LogWorld: Bringing up level for play took: 0.002654
+[2016.05.24-12.02.15:545][817]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.416
+[2016.05.24-12.02.15:545][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.02.18:429][141]LogBlueprintUserMessages: [MyCube_C_7] turn true
+[2016.05.24-12.02.18:431][141]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:439][142]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:448][143]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:456][144]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:465][145]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:474][146]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:482][147]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:491][148]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:500][149]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:508][150]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:517][151]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:526][152]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:535][153]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:543][154]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:552][155]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:561][156]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:569][157]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:578][158]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:587][159]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:596][160]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:605][161]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:614][162]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:623][163]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:631][164]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:640][165]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:648][166]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:657][167]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:667][168]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:676][169]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:685][170]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:694][171]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:703][172]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:711][173]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:720][174]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:729][175]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:737][176]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:746][177]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:755][178]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:764][179]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:772][180]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:781][181]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:790][182]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:798][183]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:807][184]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:816][185]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:825][186]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:833][187]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:842][188]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:851][189]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:860][190]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:868][191]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:877][192]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:886][193]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:895][194]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:904][195]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:912][196]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:921][197]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:930][198]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:938][199]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:947][200]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.18:955][201]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:094][448]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:103][449]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:112][450]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:120][451]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:129][452]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:138][453]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:146][454]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:155][455]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:164][456]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:173][457]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:181][458]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:190][459]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:199][460]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:207][461]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:216][462]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:225][463]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:233][464]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:242][465]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:250][466]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:259][467]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:268][468]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:276][469]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:276][469]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:276][469]LogBlueprintUserMessages: [MoveCube_C_6] turn true
+[2016.05.24-12.02.21:276][469]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:285][470]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:285][470]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:285][470]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:295][471]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:295][471]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:295][471]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:303][472]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:303][472]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:303][472]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:312][473]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:312][473]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:312][473]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:321][474]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:321][474]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:321][474]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:330][475]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:330][475]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:330][475]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:338][476]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:338][476]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:338][476]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:347][477]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:347][477]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:347][477]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:356][478]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:356][478]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:356][478]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:364][479]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:365][479]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:365][479]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:374][480]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:374][480]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:374][480]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:382][481]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:383][481]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:383][481]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:392][482]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:392][482]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:392][482]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:401][483]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:401][483]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:401][483]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:410][484]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:410][484]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:410][484]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:418][485]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:418][485]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:418][485]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:427][486]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:427][486]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:427][486]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:436][487]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:436][487]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:436][487]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:445][488]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:445][488]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:445][488]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:454][489]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:454][489]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:454][489]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:463][490]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:463][490]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:463][490]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:472][491]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:472][491]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:472][491]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:480][492]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:480][492]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:480][492]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:489][493]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:489][493]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:489][493]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:497][494]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:497][494]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:497][494]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:506][495]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:506][495]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:506][495]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:515][496]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:515][496]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:515][496]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:524][497]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:524][497]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:524][497]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:532][498]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:532][498]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:532][498]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:541][499]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:541][499]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:541][499]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:550][500]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:550][500]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:550][500]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:558][501]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:558][501]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:558][501]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:567][502]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:567][502]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:567][502]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:576][503]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:576][503]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:576][503]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:585][504]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:585][504]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:585][504]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:594][505]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:594][505]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:594][505]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:603][506]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:603][506]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:603][506]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:612][507]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:612][507]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:612][507]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:621][508]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:621][508]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:621][508]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:630][509]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:630][509]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:630][509]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:638][510]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:638][510]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:638][510]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:647][511]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:647][511]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:647][511]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:656][512]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:656][512]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:656][512]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:665][513]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:665][513]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:665][513]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:675][514]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:675][514]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:675][514]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:684][515]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:684][515]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:684][515]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:693][516]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:693][516]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:693][516]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:702][517]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:702][517]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:702][517]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:710][518]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:710][518]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:710][518]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:719][519]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:719][519]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:719][519]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:728][520]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:728][520]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:728][520]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:737][521]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:737][521]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:737][521]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:746][522]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:746][522]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:746][522]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:755][523]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:755][523]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:755][523]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:763][524]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:763][524]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:763][524]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:772][525]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:772][525]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:772][525]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:781][526]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:781][526]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:781][526]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:789][527]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:789][527]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:789][527]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:798][528]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:798][528]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:798][528]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:807][529]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:807][529]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:807][529]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:815][530]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:816][530]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:816][530]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:824][531]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:825][531]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:825][531]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:833][532]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:833][532]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:833][532]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.21:842][533]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:842][533]LogBlueprintUserMessages: [MoveCube_C_6] Hello
+[2016.05.24-12.02.21:842][533]LogBlueprintUserMessages: [MoveCube_C_7] Hello
+[2016.05.24-12.02.22:817][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.02.22:860][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.02.22:989][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001521ACA3BA0
+[2016.05.24-12.03.05:024][529]BlueprintLog: New page: MyGameMode 컴파일
+[2016.05.24-12.03.05:142][529]LogBlueprint:Error: [compiler cube] 오류 이름이 "Left" 인 함수를 'MyGameMode_C' 에서 찾을 수 없었습니다.
+'MyGameMode_C' 컴파일이  Left  에 대해 되었는지 확인하세요.
+[2016.05.24-12.03.05:248][529]BlueprintEditorCompileResults: 정보 [0463.18] MyGameMode 컴파일에 성공했습니다! [소요시간 224 ms]
+[2016.05.24-12.04.55:748][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_870.EdGraphPin_27016''
+[2016.05.24-12.04.55:748][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_870.EdGraphPin_27013''
+[2016.05.24-12.04.55:748][ 91]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_870.EdGraphPin_27015''
+[2016.05.24-12.05.44:167][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Hight.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:167][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.EdGraph_216:K2Node_MacroInstance_23
+[2016.05.24-12.05.44:167][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Low.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Up.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_206.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_220.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5892 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23.EdGraphPin_5892
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5892 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23.EdGraphPin_5892
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Hight.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.EdGraph_216:K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Low.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Up.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_206.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_220.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5893 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23.EdGraphPin_5893
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5893 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23.EdGraphPin_5893
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Hight.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.EdGraph_216:K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Low.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Up.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.Tutorial_BP_MacroLib:TutorialSamleMacro.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745.EdGraphPin_5861 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2745.EdGraphPin_5861
+[2016.05.24-12.05.44:168][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745.EdGraphPin_5861 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2745.EdGraphPin_5861
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Hight.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.EdGraph_216:K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Low.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Up.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_220.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2516 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_206.K2Node_CallFunction_2516
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2516.EdGraphPin_5885 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2516.EdGraphPin_5885
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2516.EdGraphPin_5885 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2516.EdGraphPin_5885
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Hight.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.EdGraph_216:K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Low.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:Up.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyGameMode.MyGameMode:Down.K2Node_CallFunction_2745 or K2Node_CallFunction /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.Tutorial_BP_MacroLib:TutorialSamleMacro.K2Node_CallFunction_2745
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745.EdGraphPin_5858 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CallFunction_2745.EdGraphPin_5858
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CallFunction_2745.EdGraphPin_5858 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CallFunction_2745.EdGraphPin_5858
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Up.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5873 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5873
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5873 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5873
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_Knot_2
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_Knot_2
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:Up.K2Node_Knot_2
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:169][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Hight.K2Node_CommutativeAssociativeBinaryOperator_108 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyGameMode.MyGameMode:Up.K2Node_CommutativeAssociativeBinaryOperator_108
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5875 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5875
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5875 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_CommutativeAssociativeBinaryOperator_108.EdGraphPin_5875
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_Knot_2
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_Knot_2
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/MyGameMode.MyGameMode:Y축이동.K2Node_Knot_2 or K2Node_Knot /Game/MyGameMode.MyGameMode:Up.K2Node_Knot_2
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:Y축이동.K2Node_FunctionEntry_39 or K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_FunctionEntry_39
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:Y축이동.K2Node_FunctionEntry_39 or K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_FunctionEntry_39
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Hight.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.EdGraph_216:K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Low.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Up.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_206.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_220.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5893 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23.EdGraphPin_5893
+[2016.05.24-12.05.44:170][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5893 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23.EdGraphPin_5893
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Hight.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.EdGraph_216:K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Low.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Up.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_206.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_207.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_209.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_210.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_211.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_220.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_221.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_223.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/MyGameMode.MyGameMode:Down.K2Node_MacroInstance_23 or K2Node_MacroInstance /Game/MyGameMode.MyGameMode:EdGraph_224.K2Node_MacroInstance_23
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5891 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_MacroInstance_23.EdGraphPin_5891
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/MyGameMode.MyGameMode:Y축이동.K2Node_MacroInstance_23.EdGraphPin_5891 or EdGraphPin /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_MacroInstance_23.EdGraphPin_5891
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:Y축이동.K2Node_FunctionEntry_39 or K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:EdGraph_222.K2Node_FunctionEntry_39
+[2016.05.24-12.05.44:171][498]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:Y축이동.K2Node_FunctionEntry_39 or K2Node_FunctionEntry /Game/MyGameMode.MyGameMode:EdGraph_208.K2Node_FunctionEntry_39
+[2016.05.24-12.06.41:743][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.06.41:743][547]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-12.06.41:749][547]LogPlayLevel: [PlayLevel] Compiling MyGameMode before play...
+[2016.05.24-12.06.41:942][547]LogBlueprint:Error: [compiler cube] 오류 이 블루프린트(self)는 MyGameMode_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.24-12.06.42:297][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 553 ms (3 blueprints)
+[2016.05.24-12.06.42:298][547]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-12.06.42:392][547]LogBlueprint:Error: [compiler cube] 오류 이 블루프린트(self)는 MyGameMode_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.24-12.06.42:469][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.40] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 92 ms]
+[2016.05.24-12.06.42:470][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.40] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 1 회, [소요시간 0 ms]
+[2016.05.24-12.06.42:470][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.40] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 2 회, [소요시간 0 ms]
+[2016.05.24-12.06.42:470][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.40] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 3 회, [소요시간 0 ms]
+[2016.05.24-12.06.42:471][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.41] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 4 회, [소요시간 1 ms]
+[2016.05.24-12.06.42:471][547]LogBlueprint:Warning: [compiler cube] 경고 [0680.41] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 5 회, [소요시간 0 ms]
+[2016.05.24-12.06.42:472][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 728 ms (3 blueprints)
+[2016.05.24-12.06.42:473][547]LogPlayLevel: [PlayLevel] Compiling MyCube before play...
+[2016.05.24-12.06.42:604][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 860 ms (4 blueprints)
+[2016.05.24-12.06.42:606][547]LogPlayLevel: [PlayLevel] Compiling MoveCube before play...
+[2016.05.24-12.06.42:666][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 922 ms (4 blueprints)
+[2016.05.24-12.06.42:689][547]BlueprintLog: 정보 cube 블루프린트 컴파일에 실패했습니다.
+[2016.05.24-12.06.46:601][796]BlueprintLog: New page: cube 컴파일
+[2016.05.24-12.06.46:696][796]LogBlueprint:Error: [compiler cube] 오류 이 블루프린트(self)는 MyGameMode_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.24-12.06.46:802][796]LogBlueprint:Warning: [compiler cube] 경고 [0684.74] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 201 ms]
+[2016.05.24-12.06.46:802][796]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 MyGameMode_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2016.05.24-12.06.46:802][796]BlueprintEditorCompileResults:Warning: 경고 [0684.74] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 201 ms]
+[2016.05.24-12.06.52:967][431]BlueprintLog: New page: cube 컴파일
+[2016.05.24-12.06.53:121][431]BlueprintEditorCompileResults: 정보 [0691.06] cube 컴파일에 성공했습니다! [소요시간 154 ms]
+[2016.05.24-12.06.55:634][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.06.55:634][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.24-12.06.55:634][688]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 6:06:55)
+[2016.05.24-12.06.55:634][688]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-12.06.55:719][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084787s)
+[2016.05.24-12.06.55:720][688]LogAIModule: Creating AISystem for world cube
+[2016.05.24-12.06.55:720][688]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2016.05.24-12.06.55:720][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.085762s)
+[2016.05.24-12.06.55:755][688]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-12.06.55:774][688]LogInit: FAudioDevice initialized.
+[2016.05.24-12.06.55:807][688]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-12.06.55:810][688]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-21.06.55
+[2016.05.24-12.06.55:810][688]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.06.55:810][688]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.06.55:811][688]LogWorld: Bringing up level for play took: 0.002649
+[2016.05.24-12.06.55:812][688]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.684
+[2016.05.24-12.06.55:812][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.06.58:969][ 36]LogBlueprintUserMessages: [MyCube_C_4] turn true
+[2016.05.24-12.06.58:969][ 36]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.58:978][ 37]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.58:987][ 38]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.58:997][ 39]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:007][ 40]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:016][ 41]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:025][ 42]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:035][ 43]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:044][ 44]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:053][ 45]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:062][ 46]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:071][ 47]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:081][ 48]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:090][ 49]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:100][ 50]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:109][ 51]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:117][ 52]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:127][ 53]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:136][ 54]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:145][ 55]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:155][ 56]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:164][ 57]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:174][ 58]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:184][ 59]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:192][ 60]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:201][ 61]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:210][ 62]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:218][ 63]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:227][ 64]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:236][ 65]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:245][ 66]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:253][ 67]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:262][ 68]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:270][ 69]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:279][ 70]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:288][ 71]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:297][ 72]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:305][ 73]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:314][ 74]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:323][ 75]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:331][ 76]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:340][ 77]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:350][ 78]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:359][ 79]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:368][ 80]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:376][ 81]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:385][ 82]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:394][ 83]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:403][ 84]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:413][ 85]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:421][ 86]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:430][ 87]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:438][ 88]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:977][150]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:985][151]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.06.59:994][152]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:003][153]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:012][154]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:021][155]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:030][156]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:039][157]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:047][158]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:056][159]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:065][160]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:073][161]LogBlueprintUserMessages: [MoveCube_C_4] Hello
+[2016.05.24-12.07.00:304][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.07.00:333][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.07.00:357][187]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001528FDE84A0
+[2016.05.24-12.07.30:788][595]BlueprintLog: New page: MyGameMode 컴파일
+[2016.05.24-12.07.30:874][595]LogBlueprint:Error: [compiler cube] 오류 이름이 "Down" 인 함수를 'MyGameMode_C' 에서 찾을 수 없었습니다.
+'MyGameMode_C' 컴파일이  Down  에 대해 되었는지 확인하세요.
+[2016.05.24-12.07.30:993][595]BlueprintEditorCompileResults: 정보 [0728.93] MyGameMode 컴파일에 성공했습니다! [소요시간 204 ms]
+[2016.05.24-12.08.04:507][183]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_870.EdGraphPin_30725''
+[2016.05.24-12.08.04:507][183]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2755.EdGraphPin_30742''
+[2016.05.24-12.08.04:507][183]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2755.EdGraphPin_30740''
+[2016.05.24-12.08.31:284][730]LogEditorTransaction: Undo 현재 선택을 삭제합니다.
+[2016.05.24-12.08.38:671][371]LogEditorTransaction: Undo 노드 이동
+[2016.05.24-12.08.43:924][818]LogEditorTransaction: Undo 노드 이동
+[2016.05.24-12.08.44:943][892]LogEditorTransaction: Undo 노드 이동
+[2016.05.24-12.08.55:035][797]BlueprintLog: New page: cube 컴파일
+[2016.05.24-12.08.55:137][797]LogBlueprint:Error: [compiler cube] 오류 이름이 "Z축이동" 인 함수를 'MyGameMode_C' 에서 찾을 수 없었습니다.
+'MyGameMode_C' 컴파일이  Z축이동  에 대해 되었는지 확인하세요.
+[2016.05.24-12.08.55:248][797]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001527BFE9EE0
+[2016.05.24-12.08.55:256][797]LogBlueprint:Warning: [compiler cube] 경고 [0813.19] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 220 ms]
+[2016.05.24-12.08.55:256][797]BlueprintEditorCompileResults:Error: 오류 이름이 "Z축이동" 인 함수를 'MyGameMode_C' 에서 찾을 수 없었습니다.
+'MyGameMode_C' 컴파일이  Z축이동  에 대해 되었는지 확인하세요.
+[2016.05.24-12.08.55:256][797]BlueprintEditorCompileResults:Warning: 경고 [0813.19] cube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 220 ms]
+[2016.05.24-12.09.07:851][170]BlueprintLog: New page: MyGameMode 컴파일
+[2016.05.24-12.09.08:023][170]LogBlueprint:Error: [compiler cube] 오류 이름이 "Low" 인 함수를 'MyGameMode_C' 에서 찾을 수 없었습니다.
+'MyGameMode_C' 컴파일이  Low  에 대해 되었는지 확인하세요.
+[2016.05.24-12.09.08:200][170]BlueprintEditorCompileResults: 정보 [0826.13] MyGameMode 컴파일에 성공했습니다! [소요시간 349 ms]
+[2016.05.24-12.09.15:397][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.09.15:397][881]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.24-12.09.15:408][881]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.24-12.09.15:547][881]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
+[2016.05.24-12.09.15:573][881]PIE: New page: PIE 세션: cube (2016. 5. 25. 오전 6:09:15)
+[2016.05.24-12.09.15:573][881]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.24-12.09.15:663][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089835s)
+[2016.05.24-12.09.15:663][881]LogAIModule: Creating AISystem for world cube
+[2016.05.24-12.09.15:664][881]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2016.05.24-12.09.15:664][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.090846s)
+[2016.05.24-12.09.15:699][881]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.24-12.09.15:718][881]LogInit: FAudioDevice initialized.
+[2016.05.24-12.09.15:752][881]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.24-12.09.15:755][881]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.24-21.09.15
+[2016.05.24-12.09.15:755][881]LogActor:Warning: GameSession /Game/UEDPIE_0_cube.cube:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.09.15:755][881]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_cube.cube:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.05.24-12.09.15:755][881]LogWorld: Bringing up level for play took: 0.002638
+[2016.05.24-12.09.15:757][881]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.628
+[2016.05.24-12.09.15:757][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.09.32:590][603]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.09.32:632][603]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.24-12.09.32:734][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001522C441EE0
+[2016.05.24-12.10.10:805][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.24-12.10.11:314][772]LogSavePackage: Save=468.657379ms
+[2016.05.24-12.10.11:314][772]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cube_Auto1BCDD20BF4794365497E509A86B45F1B8.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap'
+[2016.05.24-12.10.11:345][772]LogSavePackage: Total save time: 539.334457ms
+[2016.05.24-12.10.11:345][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/cube_Auto1.umap
+[2016.05.24-12.10.11:357][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/cube' took 0.590
+[2016.05.24-12.10.11:357][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.590
+[2016.05.24-12.10.11:363][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Movecube] ([1] browsable assets)...
+[2016.05.24-12.10.11:385][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Movecube.MoveCube]
+[2016.05.24-12.10.11:385][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Movecube]
+[2016.05.24-12.10.11:385][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Movecube" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Movecube_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.24-12.10.11:484][772]LogSavePackage: Save=77.822212ms
+[2016.05.24-12.10.11:484][772]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/Movecube_Auto1EEDDF1574F52130AD8EF2380556B9751.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Movecube_Auto1.uasset'
+[2016.05.24-12.10.11:497][772]LogSavePackage: Total save time: 110.812720ms
+[2016.05.24-12.10.11:497][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/Movecube_Auto1.uasset
+[2016.05.24-12.10.11:500][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyGameMode] ([1] browsable assets)...
+[2016.05.24-12.10.11:500][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyGameMode]
+[2016.05.24-12.10.11:500][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/MyGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.24-12.10.11:752][772]LogSavePackage: Save=237.781464ms
+[2016.05.24-12.10.11:752][772]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MyGameMode_Auto18AB21BD041352A0F1A60F69B0DB33C68.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/MyGameMode_Auto1.uasset'
+[2016.05.24-12.10.11:767][772]LogSavePackage: Total save time: 265.996639ms
+[2016.05.24-12.10.11:767][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/MyGameMode_Auto1.uasset
+[2016.05.24-12.10.11:767][772]LogFileHelpers: Auto-saving content packages took 0.408
+[2016.05.24-12.50.19:878][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.24-12.50.20:343][935]LogSavePackage: Save=428.009430ms
+[2016.05.24-12.50.20:343][935]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cubeA50AC031479CE34661F5B5BD6F736F42.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap'
+[2016.05.24-12.50.20:345][935]LogSavePackage: Total save time: 442.863524ms
+[2016.05.24-12.50.20:345][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap
+[2016.05.24-12.50.20:381][935]LogFileHelpers: Saving map 'cube' took 0.680
+[2016.05.24-12.50.20:389][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Movecube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/Movecube.uasset" SILENT=true
+[2016.05.24-12.50.20:476][935]LogSavePackage: Save=70.467873ms
+[2016.05.24-12.50.20:476][935]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/Movecube4BDD26AA4C203EDB22D0FD9C0FD5BDF2.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/Movecube.uasset'
+[2016.05.24-12.50.20:478][935]LogSavePackage: Total save time: 88.173933ms
+[2016.05.24-12.50.20:478][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/Movecube.uasset
+[2016.05.24-12.50.20:484][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/MyGameMode.uasset" SILENT=true
+[2016.05.24-12.50.20:736][935]LogSavePackage: Save=239.216232ms
+[2016.05.24-12.50.20:736][935]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MyGameMode663DBA784F3F1B7597B22EAA4E3FABC3.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/MyGameMode.uasset'
+[2016.05.24-12.50.20:738][935]LogSavePackage: Total save time: 253.176801ms
+[2016.05.24-12.50.20:738][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/MyGameMode.uasset
+[2016.05.24-12.50.20:864][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.24-12.50.20:946][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.24-12.50.20:996][935]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.24-12.50.21:183][936]Cmd: QUIT_EDITOR
+[2016.05.24-12.50.21:742][936]LogExit: Preparing to exit.
+[2016.05.24-12.50.22:445][936]LogExit: Editor shut down
+[2016.05.24-12.50.22:445][936]LogExit: Transaction tracking system shut down
+[2016.05.24-12.50.22:446][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001525A8E19E0
+[2016.05.24-12.50.22:447][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015244901080
+[2016.05.24-12.50.22:447][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001524B81FF60
+[2016.05.24-12.50.22:473][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001524474AE80
+[2016.05.24-12.50.22:474][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001524474B100
+[2016.05.24-12.50.22:475][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001525A7A1C60
+[2016.05.24-12.50.22:476][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001526D410E00
+[2016.05.24-12.50.22:479][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015202560720
+[2016.05.24-12.50.22:480][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001527BFE93A0
+[2016.05.24-12.50.22:782][936]LogExit: Object subsystem successfully closed.
+[2016.05.24-12.50.22:882][936]LogD3D11RHI: Shutdown
+[2016.05.24-12.50.22:882][936]LogD3D11RHI: CleanupD3DDevice
+[2016.05.24-12.50.22:938][936]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.24-12.50.23:065][936]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.05.24-12.50.23:065][936]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
+[2016.05.24-12.50.23:065][936]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.05.24-12.50.23:065][936]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.05.24-12.50.23:065][936]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.05.24-12.50.23:066][936]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.05.24-12.50.23:066][936]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.05.24-12.50.23:066][936]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.05.24-12.50.23:068][936]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.05.24-12.50.23:068][936]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.05.24-12.50.23:068][936]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.05.24-12.50.23:068][936]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.05.24-12.50.23:068][936]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.05.24-12.50.23:074][936]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.05.24-12.50.23:096][936]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.05.24-12.50.23:096][936]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.05.24-12.50.23:096][936]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.05.24-12.50.23:096][936]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.05.24-12.50.23:096][936]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.05.24-12.50.23:306][936]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.05.24-12.50.23:366][936]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.05.24-12.50.23:367][936]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.05.24-12.50.23:367][936]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.05.24-12.50.23:367][936]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.05.24-12.50.23:367][936]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.05.24-12.50.23:367][936]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.05.24-12.50.23:374][936]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.05.24-12.50.23:384][936]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.05.24-12.50.23:388][936]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.05.24-12.50.23:388][936]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.05.24-12.50.23:388][936]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.05.24-12.50.23:388][936]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.05.24-12.50.23:400][936]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.05.24-12.50.23:476][936]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.05.24-12.50.23:487][936]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.05.24-12.50.23:487][936]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.05.24-12.50.23:487][936]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.05.24-12.50.23:487][936]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.05.24-12.50.23:491][936]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.05.24-12.50.23:491][936]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.05.24-12.50.23:491][936]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.05.24-12.50.23:491][936]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.05.24-12.50.23:491][936]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.05.24-12.50.23:492][936]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.05.24-12.50.23:496][936]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.05.24-12.50.23:504][936]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.05.24-12.50.23:506][936]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.05.24-12.50.23:609][936]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.05.24-12.50.23:609][936]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.05.24-12.50.23:612][936]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.05.24-12.50.23:713][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.05.24-12.50.23:713][936]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.05.24-12.50.23:713][936]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.05.24-12.50.23:715][936]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.05.24-12.50.23:723][936]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.05.24-12.50.23:723][936]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.05.24-12.50.23:723][936]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.05.24-12.50.23:723][936]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.05.24-12.50.23:723][936]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.05.24-12.50.23:724][936]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.05.24-12.50.23:737][936]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.05.24-12.50.23:754][936]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.05.24-12.50.23:769][936]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.05.24-12.50.23:769][936]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.05.24-12.50.23:770][936]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.05.24-12.50.23:779][936]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.05.24-12.50.23:835][936]LogDerivedDataCache: Shutdown
+[2016.05.24-12.50.23:835][936]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.24-12.50.23:839][936]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.24-12.50.23:840][936]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.24-12.50.25:842][936]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.24-12.50.25:866][936]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.24-12.50.25:872][936]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.24-12.50.25:872][936]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.24-12.50.25:872][936]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.24-12.50.25:872][936]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.24-12.50.25:872][936]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.24-12.50.25:878][936]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.24-12.50.25:888][936]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.24-12.50.25:888][936]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.24-12.50.25:888][936]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.24-12.50.25:888][936]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.24-12.50.25:888][936]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.24-12.50.25:889][936]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.24-12.50.25:889][936]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.24-12.50.25:889][936]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.24-12.50.25:889][936]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.24-12.50.25:890][936]LogExit: Exiting.
+[2016.05.24-12.50.25:891][936]Log file closed, 05/24/16 21:50:25
