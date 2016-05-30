@@ -1,0 +1,85 @@
+﻿Log file open, 05/30/16 19:55:57
+LogInit:Display: Running engine for game: Cube
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(876264149) SRandInit(876264150).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.067665
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  /Temp/Autosaves/Game/UEDPCcube -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches 
+LogInit: Base directory: D:/unreal/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.30-10.55.57:119][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.30-10.55.57:119][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.30-10.55.57:122][  0]LogInit: Computer: OWNER-PC
+[2016.05.30-10.55.57:122][  0]LogInit: User: Owner
+[2016.05.30-10.55.57:122][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.30-10.55.57:122][  0]LogInit: High frequency timer resolution =3.417985 MHz
+[2016.05.30-10.55.57:122][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.30-10.55.57:122][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.30-10.55.57:122][  0]LogMemory: Process Physical Memory: 313.41 MB used, 313.41 MB peak
+[2016.05.30-10.55.57:122][  0]LogMemory: Process Virtual Memory: 314.70 MB used, 314.70 MB peak
+[2016.05.30-10.55.57:122][  0]LogMemory: Physical Memory: 5520.99 MB used, 16312.00 MB total
+[2016.05.30-10.55.57:122][  0]LogMemory: Virtual Memory: 651.30 MB used, 134217728.00 MB total
+[2016.05.30-10.55.57:157][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.30-10.55.57:186][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.05.30-10.55.57:186][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.30-10.55.57:186][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.30-10.55.57:186][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.30-10.55.57:250][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.30-10.55.57:269][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.05.30-10.55.57:269][  0]LogD3D11RHI:       1969MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2016.05.30-10.55.57:271][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.30-10.55.57:271][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.05.30-10.55.57:271][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.30-10.55.57:275][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.30-10.55.57:275][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.05.30-10.55.57:275][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.30-10.55.57:275][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.30-10.55.57:275][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.30-10.55.57:287][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.30-10.55.57:302][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Programming/unreal/Cube/Cube/Intermediate/Shaders/WorkingDirectory/4372/).
+[2016.05.30-10.55.57:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/FCE0EDC24143E74AECBF568BCDEE7C55/'.
+[2016.05.30-10.55.57:302][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.30-10.55.58:393][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.30-10.55.58:397][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.30-10.55.58:401][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.30-10.55.58:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.30-10.55.58:409][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.30-10.55.58:412][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.30-10.55.58:415][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.30-10.55.58:418][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.30-10.55.58:421][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.30-10.55.58:424][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.30-10.55.58:427][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.30-10.55.58:432][  0]LogTemp:Display: Loaded TP Android_Mu

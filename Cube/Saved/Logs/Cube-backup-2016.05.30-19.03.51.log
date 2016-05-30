@@ -1,0 +1,1020 @@
+﻿Log file open, 05/30/16 02:36:35
+LogInit:Display: Running engine for game: Cube
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(409503390) SRandInit(409503391).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.067606
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/unreal/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.29-17.36.36:156][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.29-17.36.36:156][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.29-17.36.36:163][  0]LogInit: Computer: OWNER-PC
+[2016.05.29-17.36.36:163][  0]LogInit: User: Owner
+[2016.05.29-17.36.36:163][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.29-17.36.36:163][  0]LogInit: High frequency timer resolution =3.417986 MHz
+[2016.05.29-17.36.36:163][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.29-17.36.36:163][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.29-17.36.36:163][  0]LogMemory: Process Physical Memory: 314.03 MB used, 314.03 MB peak
+[2016.05.29-17.36.36:163][  0]LogMemory: Process Virtual Memory: 314.69 MB used, 314.69 MB peak
+[2016.05.29-17.36.36:163][  0]LogMemory: Physical Memory: 3287.28 MB used, 16312.00 MB total
+[2016.05.29-17.36.36:163][  0]LogMemory: Virtual Memory: 651.30 MB used, 134217728.00 MB total
+[2016.05.29-17.36.36:204][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.29-17.36.36:235][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.05.29-17.36.36:235][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.29-17.36.36:235][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.29-17.36.36:235][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.29-17.36.36:343][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.29-17.36.36:370][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.05.29-17.36.36:370][  0]LogD3D11RHI:       1969MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2016.05.29-17.36.36:372][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.29-17.36.36:372][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.05.29-17.36.36:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.29-17.36.36:375][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.29-17.36.36:375][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.05.29-17.36.36:375][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.29-17.36.36:375][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.29-17.36.36:375][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.29-17.36.36:387][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.29-17.36.36:404][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Programming/unreal/Cube/Cube/Intermediate/Shaders/WorkingDirectory/2268/).
+[2016.05.29-17.36.36:404][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/AAD8079E404F2CAF7CA4CA88C631F8DB/'.
+[2016.05.29-17.36.36:404][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.29-17.36.37:656][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.29-17.36.37:660][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.29-17.36.37:664][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.29-17.36.37:668][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.29-17.36.37:672][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.29-17.36.37:675][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.29-17.36.37:677][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.29-17.36.37:680][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.29-17.36.37:682][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.29-17.36.37:685][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.29-17.36.37:687][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.29-17.36.37:692][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.29-17.36.37:692][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.29-17.36.37:693][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.29-17.36.37:709][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.29-17.36.37:711][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.29-17.36.37:713][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.29-17.36.37:716][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.29-17.36.37:719][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.29-17.36.37:719][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.29-17.36.37:782][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.29-17.36.37:822][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.29-17.36.37:835][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.29-17.36.37:847][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.29-17.36.37:982][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.29-17.36.37:983][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.29-17.36.38:009][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.29-17.36.38:110][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.29-17.36.38:110][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.29-17.36.38:110][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.29-17.36.38:304][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.29-17.36.38:304][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.29-17.36.38:304][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.29-17.36.38:309][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.29-17.36.38:377][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.29-17.36.38:377][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.29-17.36.38:482][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.29-17.36.38:482][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.29-17.36.38:482][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.29-17.36.38:482][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.29-17.36.38:482][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.29-17.36.38:482][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.29-17.36.39:029][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.29-17.36.39:143][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.05.29-17.36.39:253][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.29-17.36.39:317][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.29-17.36.39:325][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.29-17.36.39:332][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.29-17.36.39:437][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.29-17.36.39:496][  0]LogEngine: Initializing Engine...
+[2016.05.29-17.36.39:605][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.29-17.36.39:622][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.36.39:645][  0]LogInit: FAudioDevice initialized.
+[2016.05.29-17.36.39:668][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.29-17.36.39:672][  0]LogInit: Texture streaming: Enabled
+[2016.05.29-17.36.39:731][  0]LogInit: Transaction tracking system initialized
+[2016.05.29-17.36.39:761][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.29-17.36.39:818][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.29-17.36.39:890][  0]LogConsoleResponse:Display: 
+[2016.05.29-17.36.39:977][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.29-17.36.39:977][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.29-17.36.39:977][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.29-17.36.40:019][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/' took 0.01s
+[2016.05.29-17.36.40:019][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.29-17.36.40:019][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.29-17.36.40:094][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.29-17.36.40:097][  0]MapCheck: New page: 맵 체크
+[2016.05.29-17.36.40:097][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.29-17.36.41:793][  0]PIE:Warning: 경고 AttachTo: '/Game/cube.cube:PersistentLevel.CameraActor_3.SceneComponent' 자신에게 붙일 수 없습니다. 중단합니다.
+[2016.05.29-17.36.41:793][  0]PIE:Warning: 경고 AttachTo: '/Game/cube.cube:PersistentLevel.CameraActor_3.SceneComponent' 자신에게 붙일 수 없습니다. 중단합니다.
+[2016.05.29-17.36.41:940][  0]LogStaticMesh: dummy 스태틱 메시 빌드중...
+[2016.05.29-17.36.41:949][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Materials/dummy.dummy
+[2016.05.29-17.36.42:064][  0]LogMaterial: Missing cached shader map for material CubeMoveRoute, compiling. 
+[2016.05.29-17.36.42:093][  0]LogMaterial: Missing cached shader map for material MiniMap_Up_Mat, compiling. 
+[2016.05.29-17.36.42:102][  0]LogMaterial: Missing cached shader map for material MiniMap_Right_Mat, compiling. 
+[2016.05.29-17.36.42:108][  0]LogMaterial: Missing cached shader map for material MiniMap_Front_Mat, compiling. 
+[2016.05.29-17.36.42:113][  0]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.36.42:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.29-17.36.42:123][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.29-17.36.42:171][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 48.032ms.
+[2016.05.29-17.36.42:171][  0]LogFileHelpers: Loading map 'cube' took 2.152
+[2016.05.29-17.36.42:279][  0]LogCollectionManager: Loaded 0 collections in 0.001476 seconds
+[2016.05.29-17.36.42:321][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Saved/Collections/' took 0.01s
+[2016.05.29-17.36.42:321][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Developers/Owner/Collections/' took 0.01s
+[2016.05.29-17.36.42:321][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Collections/' took 0.01s
+[2016.05.29-17.36.42:321][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.05.29-17.36.42:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1979 classes and 343 folders.
+[2016.05.29-17.36.42:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.29-17.36.42:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.29-17.36.42:331][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.29-17.36.42:335][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.29-17.36.42:341][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.29-17.36.42:387][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.29-17.36.42:391][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.29-17.36.42:455][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.29-17.36.42:461][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.29-17.36.42:487][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.29-17.36.42:487][  0]LogLoad: Full Startup: 7.58 seconds (BP compile: 0.16 seconds)
+[2016.05.29-17.36.42:487][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.29-17.36.42:487][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.29-17.36.42:827][  0]LogOcInput: OculusInput pre-init called
+[2016.05.29-17.36.42:867][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.29-17.36.42:904][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:1).
+[2016.05.29-17.36.42:997][  0]LogRenderer: Reallocating scene render targets to support 1116x568 (Frame:2).
+[2016.05.29-17.36.45:163][  7]LogAssetRegistry: Asset discovery search completed in 6.0414 seconds
+[2016.05.29-17.36.45:163][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.29-17.36.45:163][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2016.05.29-17.36.54:880][359]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.29-17.36.55:535][359]LogLinker:Warning: 애셋 이름을 해석할 수 없습니다.
+[2016.05.29-17.36.56:835][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.36.56:835][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.36.56:837][477]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:36:56)
+[2016.05.29-17.36.56:837][477]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.36.56:983][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146169s)
+[2016.05.29-17.36.56:984][477]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.36.56:984][477]LogPlayLevel: PIE: World Init took: (0.000454s)
+[2016.05.29-17.36.56:984][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.146793s)
+[2016.05.29-17.36.57:032][477]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.36.57:048][477]LogInit: FAudioDevice initialized.
+[2016.05.29-17.36.57:089][477]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.36.57:093][477]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.36.57
+[2016.05.29-17.36.57:094][477]LogWorld: Bringing up level for play took: 0.002891
+[2016.05.29-17.36.57:096][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.05.29-17.36.57:129][477]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.994
+[2016.05.29-17.36.57:129][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.37.23:012][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.37.23:046][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.39.02:111][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MyGameMode" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/BP/MyGameMode.uasset" SILENT=true
+[2016.05.29-17.39.02:418][594]LogSavePackage: Save=295.10ms
+[2016.05.29-17.39.02:418][594]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MyGameMode0002EDCF45E68D45A5FDEB9A397E7E35.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/BP/MyGameMode.uasset'
+[2016.05.29-17.39.02:420][594]LogSavePackage: Total save time: 308.52ms
+[2016.05.29-17.39.02:420][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/BP/MyGameMode.uasset
+[2016.05.29-17.39.09:424][296]BlueprintLog: New page: MyGameMode 컴파일
+[2016.05.29-17.39.09:645][296]BlueprintEditorCompileResults: 정보 [0154.74] MyGameMode 컴파일에 성공했습니다! [소요시간 220 ms]
+[2016.05.29-17.40.33:936][198]LogRenderer: Reallocating scene render targets to support 1116x712 (Frame:24456).
+[2016.05.29-17.40.35:157][323]BlueprintLog: New page: MoveCube 컴파일
+[2016.05.29-17.40.35:200][323]LogBlueprint:Error: [compiler MoveCube] 오류  Cube Ary  에 대한 '' 기본값은 유효하지 않습니다: '('Cube Ary' 핀과 같은) 배열 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeArray 노드를 연결해 보십시오).'
+[2016.05.29-17.40.35:323][323]LogBlueprint:Warning: [compiler MoveCube] 경고 [0240.41] MoveCube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 165 ms]
+[2016.05.29-17.40.35:323][323]BlueprintEditorCompileResults:Error: 오류  Cube Ary  에 대한 '' 기본값은 유효하지 않습니다: '('Cube Ary' 핀과 같은) 배열 입력에는 반드시 입력이 연결되어 있어야 합니다 (MakeArray 노드를 연결해 보십시오).'
+[2016.05.29-17.40.35:323][323]BlueprintEditorCompileResults:Warning: 경고 [0240.41] MoveCube 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 165 ms]
+[2016.05.29-17.42.32:474][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.42.32:474][631]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.42.32:488][631]LogPlayLevel: [PlayLevel] Compiling MoveCube before play...
+[2016.05.29-17.42.32:537][631]LogBlueprint:Warning: [compiler MoveCube] 경고 'self' 는 이미 'Move Cube' 여서  MoveCube 에 형변환  필요가 없습니다.
+[2016.05.29-17.42.32:544][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.64] MoveCube 컴파일에 성공했으나, 경고가 1 회 있습니다. [소요시간 14 ms]
+[2016.05.29-17.42.32:545][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.64] MoveCube 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 0 ms]
+[2016.05.29-17.42.32:545][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.64] MoveCube 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2016.05.29-17.42.32:598][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.69] MoveCube 컴파일에 성공했으나, 경고가 4 회 있습니다. [소요시간 52 ms]
+[2016.05.29-17.42.32:601][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.69] MoveCube 컴파일에 성공했으나, 경고가 5 회 있습니다. [소요시간 2 ms]
+[2016.05.29-17.42.32:601][631]LogBlueprint:Warning: [compiler MoveCube] 경고 [0357.69] MoveCube 컴파일에 성공했으나, 경고가 6 회 있습니다. [소요시간 0 ms]
+[2016.05.29-17.42.32:601][631]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (4 blueprints)
+[2016.05.29-17.42.32:601][631]LogPlayLevel: [PlayLevel] Compiling MyCube before play...
+[2016.05.29-17.42.32:672][631]LogBlueprint:Warning: [compiler MoveCube] 경고 'self' 는 이미 'Move Cube' 여서  MoveCube 에 형변환  필요가 없습니다.
+[2016.05.29-17.42.32:795][631]LogPlayLevel: PlayLevel: Blueprint regeneration took 320 ms (4 blueprints)
+[2016.05.29-17.42.32:798][631]LogPlayLevel: [PlayLevel] Compiling MyGameMode before play...
+[2016.05.29-17.42.32:916][631]LogPlayLevel: PlayLevel: Blueprint regeneration took 442 ms (4 blueprints)
+[2016.05.29-17.42.32:917][631]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.42.33:125][631]LogPlayLevel: PlayLevel: Blueprint regeneration took 650 ms (4 blueprints)
+[2016.05.29-17.42.33:144][631]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:42:33)
+[2016.05.29-17.42.33:144][631]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.42.33:293][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149166s)
+[2016.05.29-17.42.33:294][631]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.42.33:294][631]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2016.05.29-17.42.33:294][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.149994s)
+[2016.05.29-17.42.33:321][631]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.42.33:338][631]LogInit: FAudioDevice initialized.
+[2016.05.29-17.42.33:371][631]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.42.33:375][631]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.42.33
+[2016.05.29-17.42.33:375][631]LogWorld: Bringing up level for play took: 0.002870
+[2016.05.29-17.42.33:377][631]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 1.242
+[2016.05.29-17.42.33:377][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.42.35:988][934]LogBlueprintUserMessages: [MoveCube_C_6] 1
+[2016.05.29-17.42.38:529][239]LogBlueprintUserMessages: [MoveCube_C_7] 2
+[2016.05.29-17.42.38:530][239]LogBlueprintUserMessages: [MoveCube_C_7] 3
+[2016.05.29-17.42.41:071][544]LogBlueprintUserMessages: [MoveCube_C_8] 4
+[2016.05.29-17.42.41:071][544]LogBlueprintUserMessages: [MoveCube_C_8] 5
+[2016.05.29-17.42.43:480][833]LogBlueprintUserMessages: [MoveCube_C_9] 6
+[2016.05.29-17.42.45:889][122]LogBlueprintUserMessages: [MoveCube_C_10] 7
+[2016.05.29-17.42.46:931][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.42.46:975][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.43.34:894][422]BlueprintLog: New page: MoveCube 컴파일
+[2016.05.29-17.43.35:019][422]BlueprintEditorCompileResults: 정보 [0420.11] MoveCube 컴파일에 성공했습니다! [소요시간 125 ms]
+[2016.05.29-17.43.36:050][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.43.36:050][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.43.36:050][532]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:43:36)
+[2016.05.29-17.43.36:050][532]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.43.36:197][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146844s)
+[2016.05.29-17.43.36:197][532]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.43.36:197][532]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.05.29-17.43.36:197][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.147550s)
+[2016.05.29-17.43.36:225][532]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.43.36:242][532]LogInit: FAudioDevice initialized.
+[2016.05.29-17.43.36:272][532]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.43.36:276][532]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.43.36
+[2016.05.29-17.43.36:276][532]LogWorld: Bringing up level for play took: 0.002884
+[2016.05.29-17.43.36:278][532]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.143
+[2016.05.29-17.43.36:278][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.43.38:823][835]LogBlueprintUserMessages: [MoveCube_C_6] 1
+[2016.05.29-17.43.41:232][124]LogBlueprintUserMessages: [MoveCube_C_7] 2
+[2016.05.29-17.43.43:778][429]LogBlueprintUserMessages: [MoveCube_C_8] 3
+[2016.05.29-17.43.46:320][734]LogBlueprintUserMessages: [MoveCube_C_9] 4
+[2016.05.29-17.43.48:862][ 39]LogBlueprintUserMessages: [MoveCube_C_10] 5
+[2016.05.29-17.43.51:405][344]LogBlueprintUserMessages: [MoveCube_C_11] 6
+[2016.05.29-17.43.52:172][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.43.52:225][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.11:015][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.11:015][533]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.48.11:052][533]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.48.11:304][533]LogPlayLevel: PlayLevel: Blueprint regeneration took 288 ms (1 blueprints)
+[2016.05.29-17.48.11:322][533]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:48:11)
+[2016.05.29-17.48.11:322][533]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.48.11:503][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181379s)
+[2016.05.29-17.48.11:504][533]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.48.11:504][533]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2016.05.29-17.48.11:504][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.182100s)
+[2016.05.29-17.48.11:532][533]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.48.11:550][533]LogInit: FAudioDevice initialized.
+[2016.05.29-17.48.11:583][533]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.48.11:586][533]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.48.11
+[2016.05.29-17.48.11:586][533]LogWorld: Bringing up level for play took: 0.002801
+[2016.05.29-17.48.11:588][533]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 1.453
+[2016.05.29-17.48.11:588][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.14:602][840]LogBlueprintUserMessages: [MoveCube_C_13] 1
+[2016.05.29-17.48.15:925][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.16:007][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.25:771][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.25:771][894]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.48.25:806][894]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.48.26:052][894]LogPlayLevel: PlayLevel: Blueprint regeneration took 280 ms (1 blueprints)
+[2016.05.29-17.48.26:070][894]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:48:26)
+[2016.05.29-17.48.26:070][894]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.48.26:248][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178545s)
+[2016.05.29-17.48.26:249][894]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.48.26:249][894]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2016.05.29-17.48.26:249][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.179331s)
+[2016.05.29-17.48.26:278][894]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.48.26:294][894]LogInit: FAudioDevice initialized.
+[2016.05.29-17.48.26:327][894]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.48.26:331][894]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.48.26
+[2016.05.29-17.48.26:331][894]LogWorld: Bringing up level for play took: 0.003066
+[2016.05.29-17.48.26:333][894]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.198
+[2016.05.29-17.48.26:333][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.29:297][197]LogBlueprintUserMessages: [MoveCube_C_15] 1
+[2016.05.29-17.48.31:978][502]LogBlueprintUserMessages: [MoveCube_C_16] 2
+[2016.05.29-17.48.34:667][807]LogBlueprintUserMessages: [MoveCube_C_17] 3
+[2016.05.29-17.48.35:480][897]LogSelection:Warning: PIE object was selected: "Actor /Game/UEDPIE_0_cube.cube:PersistentLevel.Center"
+[2016.05.29-17.48.44:426][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.44:512][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.48.51:136][174]LogActorFactory: Actor Factory created Sphere
+[2016.05.29-17.48.51:814][240]LogActorFactory: Actor Factory created Sphere
+[2016.05.29-17.48.52:310][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.05.29-17.49.01:732][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.01:732][101]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.49.01:767][101]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.49.02:015][101]LogPlayLevel: PlayLevel: Blueprint regeneration took 282 ms (1 blueprints)
+[2016.05.29-17.49.02:034][101]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:49:02)
+[2016.05.29-17.49.02:034][101]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.49.02:214][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180512s)
+[2016.05.29-17.49.02:214][101]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.49.02:214][101]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2016.05.29-17.49.02:215][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.181255s)
+[2016.05.29-17.49.02:243][101]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.49.02:259][101]LogInit: FAudioDevice initialized.
+[2016.05.29-17.49.02:293][101]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.49.02:296][101]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.49.02
+[2016.05.29-17.49.02:296][101]LogWorld: Bringing up level for play took: 0.002831
+[2016.05.29-17.49.02:298][101]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.163
+[2016.05.29-17.49.02:298][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.05:242][404]LogBlueprintUserMessages: [MoveCube_C_19] 1
+[2016.05.29-17.49.06:032][495]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.06:032][495]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.07:254][636]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.07:254][636]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.07:585][674]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.07:585][674]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.07:890][709]LogBlueprintUserMessages: [MoveCube_C_20] 2
+[2016.05.29-17.49.08:615][793]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.08:615][793]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.08:615][793]PIE:Warning: 경고 Sphere_4 의 모빌리티: 이동 작업을 위해서는 StaticMeshComponent0 가 '무버블'이어야 합니다. 
+[2016.05.29-17.49.09:768][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.09:878][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.13:399][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.13:399][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.49.13:400][197]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:49:13)
+[2016.05.29-17.49.13:400][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.49.13:578][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177802s)
+[2016.05.29-17.49.13:578][197]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.49.13:578][197]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2016.05.29-17.49.13:579][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.178472s)
+[2016.05.29-17.49.13:606][197]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.49.13:623][197]LogInit: FAudioDevice initialized.
+[2016.05.29-17.49.13:651][197]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.49.13:654][197]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.49.13
+[2016.05.29-17.49.13:654][197]LogWorld: Bringing up level for play took: 0.002785
+[2016.05.29-17.49.13:656][197]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.479
+[2016.05.29-17.49.13:656][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.16:348][500]LogBlueprintUserMessages: [MoveCube_C_22] 1
+[2016.05.29-17.49.19:019][805]LogBlueprintUserMessages: [MoveCube_C_23] 2
+[2016.05.29-17.49.21:667][110]LogBlueprintUserMessages: [MoveCube_C_24] 3
+[2016.05.29-17.49.24:303][415]LogBlueprintUserMessages: [MoveCube_C_25] 4
+[2016.05.29-17.49.26:803][704]LogBlueprintUserMessages: [MoveCube_C_26] 5
+[2016.05.29-17.49.27:808][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.49.27:919][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.17:428][253]BlueprintLog: New page: cube 컴파일
+[2016.05.29-17.50.17:696][253]BlueprintEditorCompileResults: 정보 [0822.79] cube 컴파일에 성공했습니다! [소요시간 268 ms]
+[2016.05.29-17.50.19:159][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.19:159][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.50.19:159][374]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:50:19)
+[2016.05.29-17.50.19:159][374]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.50.19:346][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186159s)
+[2016.05.29-17.50.19:346][374]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.50.19:346][374]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2016.05.29-17.50.19:346][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.186882s)
+[2016.05.29-17.50.19:375][374]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.50.19:392][374]LogInit: FAudioDevice initialized.
+[2016.05.29-17.50.19:420][374]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.50.19:424][374]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.50.19
+[2016.05.29-17.50.19:424][374]LogWorld: Bringing up level for play took: 0.002939
+[2016.05.29-17.50.19:426][374]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.709
+[2016.05.29-17.50.19:426][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.22:417][677]LogBlueprintUserMessages: [MoveCube_C_28] 1
+[2016.05.29-17.50.30:714][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.30:869][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.31:976][618]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.31:976][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.50.31:976][618]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:50:31)
+[2016.05.29-17.50.31:976][618]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.50.32:164][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188815s)
+[2016.05.29-17.50.32:165][618]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.50.32:165][618]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2016.05.29-17.50.32:165][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.189489s)
+[2016.05.29-17.50.32:194][618]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.50.32:211][618]LogInit: FAudioDevice initialized.
+[2016.05.29-17.50.32:244][618]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.50.32:247][618]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.50.32
+[2016.05.29-17.50.32:248][618]LogWorld: Bringing up level for play took: 0.002985
+[2016.05.29-17.50.32:249][618]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.115
+[2016.05.29-17.50.32:250][618]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.35:263][921]LogBlueprintUserMessages: [MoveCube_C_31] 1
+[2016.05.29-17.50.36:994][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.37:099][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.38:672][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.38:672][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.50.38:673][196]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:50:38)
+[2016.05.29-17.50.38:673][196]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.50.38:861][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187976s)
+[2016.05.29-17.50.38:861][196]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.50.38:861][196]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2016.05.29-17.50.38:862][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.188693s)
+[2016.05.29-17.50.38:890][196]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.50.38:908][196]LogInit: FAudioDevice initialized.
+[2016.05.29-17.50.38:941][196]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.50.38:944][196]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.50.38
+[2016.05.29-17.50.38:945][196]LogWorld: Bringing up level for play took: 0.002744
+[2016.05.29-17.50.38:946][196]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.812
+[2016.05.29-17.50.38:946][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.50.41:808][499]LogBlueprintUserMessages: [MoveCube_C_33] 1
+[2016.05.29-17.50.44:502][788]LogBlueprintUserMessages: [MoveCube_C_34] 2
+[2016.05.29-17.50.47:269][ 85]LogBlueprintUserMessages: [MoveCube_C_35] 3
+[2016.05.29-17.50.49:708][346]LogBlueprintUserMessages: [MoveCube_C_36] 4
+[2016.05.29-17.50.52:784][675]LogBlueprintUserMessages: [MoveCube_C_37] 5
+[2016.05.29-17.50.55:627][980]LogBlueprintUserMessages: [MoveCube_C_38] 6
+[2016.05.29-17.50.59:718][416]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.51.05:915][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.06:032][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.07:438][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.07:438][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.51.07:438][953]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:51:07)
+[2016.05.29-17.51.07:438][953]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.51.07:625][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186869s)
+[2016.05.29-17.51.07:626][953]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.51.07:626][953]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.05.29-17.51.07:626][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.187622s)
+[2016.05.29-17.51.07:654][953]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.51.07:671][953]LogInit: FAudioDevice initialized.
+[2016.05.29-17.51.07:702][953]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.51.07:705][953]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.51.07
+[2016.05.29-17.51.07:706][953]LogWorld: Bringing up level for play took: 0.002805
+[2016.05.29-17.51.07:708][953]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.427
+[2016.05.29-17.51.07:708][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.10:595][256]LogBlueprintUserMessages: [MoveCube_C_41] 1
+[2016.05.29-17.51.13:443][561]LogBlueprintUserMessages: [MoveCube_C_42] 2
+[2016.05.29-17.51.19:121][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.19:232][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.20:170][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.20:170][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.51.20:170][209]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:51:20)
+[2016.05.29-17.51.20:170][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.51.20:354][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184604s)
+[2016.05.29-17.51.20:355][209]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.51.20:355][209]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2016.05.29-17.51.20:355][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.185313s)
+[2016.05.29-17.51.20:384][209]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.51.20:400][209]LogInit: FAudioDevice initialized.
+[2016.05.29-17.51.20:430][209]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.51.20:433][209]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.51.20
+[2016.05.29-17.51.20:434][209]LogWorld: Bringing up level for play took: 0.002792
+[2016.05.29-17.51.20:435][209]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.301
+[2016.05.29-17.51.20:435][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.51.23:307][512]LogBlueprintUserMessages: [MoveCube_C_44] 1
+[2016.05.29-17.51.26:000][801]LogBlueprintUserMessages: [MoveCube_C_45] 2
+[2016.05.29-17.51.28:844][106]LogBlueprintUserMessages: [MoveCube_C_46] 3
+[2016.05.29-17.51.31:548][395]LogBlueprintUserMessages: [MoveCube_C_47] 4
+[2016.05.29-17.51.34:100][668]LogBlueprintUserMessages: [MoveCube_C_48] 5
+[2016.05.29-17.51.36:653][941]LogBlueprintUserMessages: [MoveCube_C_49] 6
+[2016.05.29-17.51.39:638][256]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.51.49:307][841]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube48)
+[2016.05.29-17.51.49:307][841]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_48"
+[2016.05.29-17.51.56:543][247]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube45)
+[2016.05.29-17.51.56:543][247]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_45"
+[2016.05.29-17.52.01:786][533]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube44)
+[2016.05.29-17.52.01:786][533]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_44"
+[2016.05.29-17.52.02:362][563]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube44)
+[2016.05.29-17.52.02:362][563]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_44"
+[2016.05.29-17.52.02:735][585]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube45)
+[2016.05.29-17.52.02:735][585]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_45"
+[2016.05.29-17.52.06:128][762]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube49)
+[2016.05.29-17.52.06:128][762]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_49"
+[2016.05.29-17.52.18:918][508]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube47)
+[2016.05.29-17.52.18:918][508]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_47"
+[2016.05.29-17.52.20:932][618]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube47)
+[2016.05.29-17.52.20:932][618]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_47"
+[2016.05.29-17.52.24:632][810]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube49)
+[2016.05.29-17.52.24:632][810]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_49"
+[2016.05.29-17.52.28:502][ 32]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube47)
+[2016.05.29-17.52.28:502][ 32]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_47"
+[2016.05.29-17.52.30:986][170]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube49)
+[2016.05.29-17.52.30:986][170]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_49"
+[2016.05.29-17.52.31:665][211]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.29-17.52.31:665][211]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_cube.cube:PersistentLevel.SkySphere"
+[2016.05.29-17.52.32:646][291]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube45)
+[2016.05.29-17.52.32:646][291]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_45"
+[2016.05.29-17.52.34:134][394]LogEditorViewport: Clicking on Actor (CTRL LMB): MoveCube_C (MoveCube49)
+[2016.05.29-17.52.34:134][394]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_49"
+[2016.05.29-17.52.38:089][628]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube47)
+[2016.05.29-17.52.38:089][628]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_47"
+[2016.05.29-17.52.47:564][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_y)
+[2016.05.29-17.52.47:564][162]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Route_y"
+[2016.05.29-17.52.47:911][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Route_y)
+[2016.05.29-17.52.47:911][173]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Route_y"
+[2016.05.29-17.52.48:518][211]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube50)
+[2016.05.29-17.52.48:518][211]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_50"
+[2016.05.29-17.52.55:451][611]LogBlueprintUserMessages: [MoveCube_C_50] 7
+[2016.05.29-17.53.01:760][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.29-17.53.01:760][959]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_cube.cube:PersistentLevel.SkySphere"
+[2016.05.29-17.53.02:836][ 17]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube50)
+[2016.05.29-17.53.02:836][ 17]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_50"
+[2016.05.29-17.53.12:622][568]LogEditorViewport: Clicking on Actor (LMB): MoveCube_C (MoveCube48)
+[2016.05.29-17.53.12:622][568]LogSelection:Warning: PIE object was selected: "MoveCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MoveCube_C_48"
+[2016.05.29-17.53.20:085][ 63]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.29-17.53.20:085][ 63]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_cube.cube:PersistentLevel.SkySphere"
+[2016.05.29-17.53.23:529][234]LogBlueprintUserMessages: [MoveCube_C_51] 8
+[2016.05.29-17.53.27:688][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.27:755][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.29:452][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.29:452][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.53.29:452][750]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:53:29)
+[2016.05.29-17.53.29:452][750]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.53.29:639][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187077s)
+[2016.05.29-17.53.29:640][750]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.53.29:640][750]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2016.05.29-17.53.29:640][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.187704s)
+[2016.05.29-17.53.29:667][750]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.53.29:683][750]LogInit: FAudioDevice initialized.
+[2016.05.29-17.53.29:710][750]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.53.29:713][750]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.53.29
+[2016.05.29-17.53.29:714][750]LogWorld: Bringing up level for play took: 0.002828
+[2016.05.29-17.53.29:715][750]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: -0.419
+[2016.05.29-17.53.29:715][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.33:094][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.33:162][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.34:128][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.34:128][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.53.34:128][ 60]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:53:34)
+[2016.05.29-17.53.34:128][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.53.34:316][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187986s)
+[2016.05.29-17.53.34:317][ 60]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.53.34:317][ 60]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2016.05.29-17.53.34:317][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.188652s)
+[2016.05.29-17.53.34:345][ 60]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.53.34:361][ 60]LogInit: FAudioDevice initialized.
+[2016.05.29-17.53.34:392][ 60]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.53.34:395][ 60]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.53.34
+[2016.05.29-17.53.34:395][ 60]LogWorld: Bringing up level for play took: 0.002765
+[2016.05.29-17.53.34:397][ 60]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.262
+[2016.05.29-17.53.34:397][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.53.37:261][363]LogBlueprintUserMessages: [MoveCube_C_54] 1
+[2016.05.29-17.53.40:096][668]LogBlueprintUserMessages: [MoveCube_C_55] 2
+[2016.05.29-17.53.42:795][957]LogBlueprintUserMessages: [MoveCube_C_56] 3
+[2016.05.29-17.53.52:008][940]LogBlueprintUserMessages: [MoveCube_C_58] 4
+[2016.05.29-17.53.55:510][311]LogBlueprintUserMessages: [MoveCube_C_59] 5
+[2016.05.29-17.53.58:030][578]LogBlueprintUserMessages: [MoveCube_C_60] 6
+[2016.05.29-17.54.01:280][916]LogBlueprintUserMessages: [MoveCube_C_61] 7
+[2016.05.29-17.54.08:821][597]LogSelection:Warning: PIE object was selected: "Actor /Game/UEDPIE_0_cube.cube:PersistentLevel.Actor_5"
+[2016.05.29-17.54.27:057][ 45]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.54.47:681][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.54.47:792][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.54.52:265][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.54.52:265][729]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.54.52:302][729]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.54.52:551][729]LogPlayLevel: PlayLevel: Blueprint regeneration took 286 ms (1 blueprints)
+[2016.05.29-17.54.52:569][729]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:54:52)
+[2016.05.29-17.54.52:569][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.54.52:758][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188750s)
+[2016.05.29-17.54.52:759][729]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.54.52:759][729]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2016.05.29-17.54.52:759][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.189495s)
+[2016.05.29-17.54.52:787][729]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.54.52:803][729]LogInit: FAudioDevice initialized.
+[2016.05.29-17.54.52:831][729]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.54.52:834][729]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.54.52
+[2016.05.29-17.54.52:835][729]LogWorld: Bringing up level for play took: 0.002822
+[2016.05.29-17.54.52:836][729]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.702
+[2016.05.29-17.54.52:836][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.54.55:741][ 32]LogBlueprintUserMessages: [MoveCube_C_63] 1
+[2016.05.29-17.54.58:296][337]LogBlueprintUserMessages: [MoveCube_C_64] 2
+[2016.05.29-17.55.00:849][642]LogBlueprintUserMessages: [MoveCube_C_65] 3
+[2016.05.29-17.55.03:267][931]LogBlueprintUserMessages: [MoveCube_C_66] 4
+[2016.05.29-17.55.05:822][236]LogBlueprintUserMessages: [MoveCube_C_67] 5
+[2016.05.29-17.55.08:377][541]LogBlueprintUserMessages: [MoveCube_C_68] 6
+[2016.05.29-17.55.16:824][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.16:935][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.40:121][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.40:121][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.55.40:121][757]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:55:40)
+[2016.05.29-17.55.40:121][757]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.55.40:307][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186026s)
+[2016.05.29-17.55.40:307][757]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.55.40:307][757]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2016.05.29-17.55.40:308][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.186731s)
+[2016.05.29-17.55.40:336][757]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.55.40:353][757]LogInit: FAudioDevice initialized.
+[2016.05.29-17.55.40:384][757]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.55.40:387][757]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.55.40
+[2016.05.29-17.55.40:388][757]LogWorld: Bringing up level for play took: 0.003094
+[2016.05.29-17.55.40:389][757]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.255
+[2016.05.29-17.55.40:389][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.43:272][ 60]LogBlueprintUserMessages: [MoveCube_C_71] 1
+[2016.05.29-17.55.46:106][365]LogBlueprintUserMessages: [MoveCube_C_72] 2
+[2016.05.29-17.55.48:934][670]LogBlueprintUserMessages: [MoveCube_C_73] 3
+[2016.05.29-17.55.51:699][959]LogBlueprintUserMessages: [MoveCube_C_74] 4
+[2016.05.29-17.55.52:368][ 30]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.55.57:658][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.57:775][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.58:788][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.55.58:788][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.55.58:788][452]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:55:58)
+[2016.05.29-17.55.58:788][452]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.55.58:974][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185775s)
+[2016.05.29-17.55.58:974][452]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.55.58:974][452]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2016.05.29-17.55.58:974][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.186421s)
+[2016.05.29-17.55.59:002][452]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.55.59:019][452]LogInit: FAudioDevice initialized.
+[2016.05.29-17.55.59:052][452]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.55.59:056][452]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.55.59
+[2016.05.29-17.55.59:056][452]LogWorld: Bringing up level for play took: 0.003066
+[2016.05.29-17.55.59:058][452]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.923
+[2016.05.29-17.55.59:058][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.56.01:862][755]LogBlueprintUserMessages: [MoveCube_C_76] 1
+[2016.05.29-17.56.04:655][ 60]LogBlueprintUserMessages: [MoveCube_C_77] 2
+[2016.05.29-17.56.07:732][396]LogBlueprintUserMessages: [MoveCube_C_78] 3
+[2016.05.29-17.56.10:238][668]LogBlueprintUserMessages: [MoveCube_C_79] 4
+[2016.05.29-17.56.12:582][924]LogBlueprintUserMessages: [MoveCube_C_80] 5
+[2016.05.29-17.56.13:630][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.56.13:746][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.56.52:814][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.56.52:814][408]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.56.52:853][408]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.56.53:109][408]LogPlayLevel: PlayLevel: Blueprint regeneration took 295 ms (1 blueprints)
+[2016.05.29-17.56.53:126][408]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:56:53)
+[2016.05.29-17.56.53:126][408]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.56.53:315][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187930s)
+[2016.05.29-17.56.53:315][408]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.56.53:315][408]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.05.29-17.56.53:316][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.188738s)
+[2016.05.29-17.56.53:343][408]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.56.53:360][408]LogInit: FAudioDevice initialized.
+[2016.05.29-17.56.53:388][408]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.56.53:392][408]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.56.53
+[2016.05.29-17.56.53:392][408]LogWorld: Bringing up level for play took: 0.002881
+[2016.05.29-17.56.53:394][408]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 1.259
+[2016.05.29-17.56.53:394][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.56.56:574][711]LogBlueprintUserMessages: [MoveCube_C_82] 1
+[2016.05.29-17.56.59:352][ 16]LogBlueprintUserMessages: [MoveCube_C_83] 2
+[2016.05.29-17.57.02:171][321]LogBlueprintUserMessages: [MoveCube_C_84] 3
+[2016.05.29-17.57.05:550][686]LogBlueprintUserMessages: [MoveCube_C_85] 4
+[2016.05.29-17.57.14:473][674]LogBlueprintUserMessages: [MoveCube_C_87] 5
+[2016.05.29-17.57.17:219][979]LogBlueprintUserMessages: [MoveCube_C_88] 6
+[2016.05.29-17.57.23:285][663]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.57.37:128][748]LogSelection:Warning: PIE object was selected: "TargetPoint /Game/UEDPIE_0_cube.cube:PersistentLevel.TargetPoint_xP"
+[2016.05.29-17.57.37:529][775]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.57.48:931][746]LogSelection:Warning: PIE object was selected: "MyCube_C /Game/UEDPIE_0_cube.cube:PersistentLevel.MyCube_C_16"
+[2016.05.29-17.57.56:001][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.57.56:120][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.04:340][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.04:340][ 12]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.29-17.58.04:377][ 12]LogPlayLevel: [PlayLevel] Compiling cube before play...
+[2016.05.29-17.58.04:633][ 12]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (1 blueprints)
+[2016.05.29-17.58.04:651][ 12]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:58:04)
+[2016.05.29-17.58.04:651][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.58.04:842][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190630s)
+[2016.05.29-17.58.04:842][ 12]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.58.04:842][ 12]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2016.05.29-17.58.04:843][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.191319s)
+[2016.05.29-17.58.04:870][ 12]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.58.04:887][ 12]LogInit: FAudioDevice initialized.
+[2016.05.29-17.58.04:917][ 12]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.58.04:920][ 12]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.58.04
+[2016.05.29-17.58.04:920][ 12]LogWorld: Bringing up level for play took: 0.002876
+[2016.05.29-17.58.04:922][ 12]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.787
+[2016.05.29-17.58.04:922][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.08:308][315]LogBlueprintUserMessages: [MoveCube_C_91] 1
+[2016.05.29-17.58.11:439][631]LogBlueprintUserMessages: [MoveCube_C_92] 2
+[2016.05.29-17.58.12:695][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.12:808][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.14:267][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.14:267][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.58.14:267][843]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:58:14)
+[2016.05.29-17.58.14:267][843]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.58.14:456][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188434s)
+[2016.05.29-17.58.14:456][843]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.58.14:456][843]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2016.05.29-17.58.14:457][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.189096s)
+[2016.05.29-17.58.14:485][843]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.58.14:501][843]LogInit: FAudioDevice initialized.
+[2016.05.29-17.58.14:534][843]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.58.14:537][843]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.58.14
+[2016.05.29-17.58.14:537][843]LogWorld: Bringing up level for play took: 0.003152
+[2016.05.29-17.58.14:539][843]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.404
+[2016.05.29-17.58.14:539][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.58.17:581][146]LogBlueprintUserMessages: [MoveCube_C_94] 1
+[2016.05.29-17.58.20:582][451]LogBlueprintUserMessages: [MoveCube_C_95] 2
+[2016.05.29-17.58.23:583][756]LogBlueprintUserMessages: [MoveCube_C_96] 3
+[2016.05.29-17.58.33:128][723]LogBlueprintUserMessages: [MoveCube_C_98] 4
+[2016.05.29-17.58.36:159][ 29]LogBlueprintUserMessages: [MoveCube_C_99] 5
+[2016.05.29-17.58.39:163][334]LogBlueprintUserMessages: [MoveCube_C_100] 6
+[2016.05.29-17.58.42:765][699]LogBlueprintUserMessages: [MoveCube_C_101] 7
+[2016.05.29-17.58.45:481][973]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.58.54:429][596]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.29-17.58.54:429][596]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/UEDPIE_0_cube.cube:PersistentLevel.SkySphere"
+[2016.05.29-17.59.00:757][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.05.29-17.59.00:757][118]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/UEDPIE_0_cube.cube:PersistentLevel.Sphere_4"
+[2016.05.29-17.59.13:048][ 52]LogBlueprintUserMessages: [MoveCube_C_104] 8
+[2016.05.29-17.59.13:869][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.13:981][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.17:889][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.17:890][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.59.17:890][413]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:59:17)
+[2016.05.29-17.59.17:890][413]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.59.18:079][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189407s)
+[2016.05.29-17.59.18:079][413]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.59.18:080][413]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2016.05.29-17.59.18:080][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.190194s)
+[2016.05.29-17.59.18:109][413]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.59.18:126][413]LogInit: FAudioDevice initialized.
+[2016.05.29-17.59.18:159][413]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.59.18:162][413]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.59.18
+[2016.05.29-17.59.18:163][413]LogWorld: Bringing up level for play took: 0.003052
+[2016.05.29-17.59.18:164][413]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.03
+[2016.05.29-17.59.18:165][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.21:269][716]LogBlueprintUserMessages: [MoveCube_C_106] 1
+[2016.05.29-17.59.24:320][ 21]LogBlueprintUserMessages: [MoveCube_C_107] 2
+[2016.05.29-17.59.27:379][326]LogBlueprintUserMessages: [MoveCube_C_108] 3
+[2016.05.29-17.59.29:343][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.29:457][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.51:125][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.51:125][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-17.59.51:125][353]PIE: New page: PIE 세션: cube (2016. 5. 30. 오전 11:59:51)
+[2016.05.29-17.59.51:125][353]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-17.59.51:315][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189571s)
+[2016.05.29-17.59.51:315][353]LogAIModule: Creating AISystem for world cube
+[2016.05.29-17.59.51:315][353]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2016.05.29-17.59.51:315][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.190249s)
+[2016.05.29-17.59.51:344][353]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-17.59.51:361][353]LogInit: FAudioDevice initialized.
+[2016.05.29-17.59.51:390][353]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-17.59.51:393][353]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-02.59.51
+[2016.05.29-17.59.51:394][353]LogWorld: Bringing up level for play took: 0.002950
+[2016.05.29-17.59.51:396][353]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 1.261
+[2016.05.29-17.59.51:396][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-17.59.54:500][656]LogBlueprintUserMessages: [MoveCube_C_110] 1
+[2016.05.29-17.59.57:578][961]LogBlueprintUserMessages: [MoveCube_C_111] 2
+[2016.05.29-18.00.00:301][231]LogBlueprintUserMessages: [MoveCube_C_112] 3
+[2016.05.29-18.00.03:866][584]LogBlueprintUserMessages: [MoveCube_C_113] 4
+[2016.05.29-18.00.07:188][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.07:297][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.20:323][952]BlueprintLog: New page: cube 컴파일
+[2016.05.29-18.00.20:602][952]BlueprintEditorCompileResults: 정보 [1425.69] cube 컴파일에 성공했습니다! [소요시간 279 ms]
+[2016.05.29-18.00.22:236][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.22:236][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.29-18.00.22:237][ 89]PIE: New page: PIE 세션: cube (2016. 5. 30. 오후 12:00:22)
+[2016.05.29-18.00.22:237][ 89]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_cube
+[2016.05.29-18.00.22:429][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.192464s)
+[2016.05.29-18.00.22:430][ 89]LogAIModule: Creating AISystem for world cube
+[2016.05.29-18.00.22:430][ 89]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2016.05.29-18.00.22:431][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/cube.cube to /Game/UEDPIE_0_cube.cube (0.193655s)
+[2016.05.29-18.00.22:460][ 89]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.29-18.00.22:477][ 89]LogInit: FAudioDevice initialized.
+[2016.05.29-18.00.22:507][ 89]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.29-18.00.22:510][ 89]LogWorld: Bringing World /Game/UEDPIE_0_cube.cube up for play (max tick rate 0) at 2016.05.30-03.00.22
+[2016.05.29-18.00.22:511][ 89]LogWorld: Bringing up level for play took: 0.002827
+[2016.05.29-18.00.22:512][ 89]PIE: 정보 /Game/UEDPIE_0_cube 에 대한 에디터에서 플레이 시작 시간: 0.378
+[2016.05.29-18.00.22:513][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.25:597][392]LogBlueprintUserMessages: [MoveCube_C_115] 1
+[2016.05.29-18.00.28:648][697]LogBlueprintUserMessages: [MoveCube_C_116] 2
+[2016.05.29-18.00.31:517][984]LogBlueprintUserMessages: [MoveCube_C_117] 3
+[2016.05.29-18.00.35:748][407]LogBlueprintUserMessages: [MoveCube_C_118] 4
+[2016.05.29-18.00.38:168][649]LogBlueprintUserMessages: [MoveCube_C_119] 5
+[2016.05.29-18.00.39:758][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.39:918][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/cube.cube:PersistentLevel' has LevelScriptBlueprint '/Game/cube.cube:PersistentLevel.cube' with GeneratedClass '/Game/cube.cube_C' with ClassGeneratedBy '/Game/cube.cube:PersistentLevel.cube'
+[2016.05.29-18.00.50:899][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MoveCube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/BP/MoveCube.uasset" SILENT=true
+[2016.05.29-18.00.51:166][674]LogSavePackage: Save=255.75ms
+[2016.05.29-18.00.51:166][674]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MoveCube186B47FD48064FFF588B3286F4B9626F.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/BP/MoveCube.uasset'
+[2016.05.29-18.00.51:169][674]LogSavePackage: Total save time: 269.08ms
+[2016.05.29-18.00.51:169][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/BP/MoveCube.uasset
+[2016.05.29-18.00.51:227][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cube" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.29-18.00.52:570][674]LogSavePackage: Save=1316.91ms
+[2016.05.29-18.00.52:570][674]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/cubeB950668545C05AD4EE581DAF5B15A2D2.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap'
+[2016.05.29-18.00.52:572][674]LogSavePackage: Total save time: 1331.07ms
+[2016.05.29-18.00.52:572][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/cube.umap
+[2016.05.29-18.00.52:595][674]LogFileHelpers: Saving map 'cube' took 1.424
+[2016.05.29-18.00.52:737][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.29-18.00.52:795][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.29-18.00.53:050][674]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.29-18.00.53:239][675]Cmd: QUIT_EDITOR
+[2016.05.29-18.00.53:942][675]LogExit: Preparing to exit.
+[2016.05.29-18.00.54:758][675]LogExit: Editor shut down
+[2016.05.29-18.00.54:758][675]LogExit: Transaction tracking system shut down
+[2016.05.29-18.00.54:883][675]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.29-18.00.54:883][675]LogExit: Object subsystem successfully closed.
+[2016.05.29-18.00.54:894][675]LogD3D11RHI: Shutdown
+[2016.05.29-18.00.54:894][675]LogD3D11RHI: CleanupD3DDevice
+[2016.05.29-18.00.54:952][675]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.29-18.00.55:051][675]LogDerivedDataCache: Shutdown
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.29-18.00.55:052][675]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.29-18.00.55:053][675]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.29-18.00.55:433][675]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.29-18.00.55:434][675]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.29-18.00.55:465][675]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.29-18.00.55:466][675]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.29-18.00.55:587][675]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.29-18.00.55:588][675]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.29-18.00.55:588][675]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.29-18.00.55:588][675]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.29-18.00.55:589][675]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.29-18.00.55:773][675]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.29-18.00.55:774][675]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.29-18.00.55:774][675]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.29-18.00.55:875][675]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.29-18.00.55:876][675]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.29-18.00.55:877][675]LogDerivedDataCache: Shutdown
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.29-18.00.55:877][675]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.29-18.00.55:878][675]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.29-18.00.57:379][675]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.29-18.00.57:383][675]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.29-18.00.57:385][675]LogExit: Exiting.
+[2016.05.29-18.00.57:399][675]Log file closed, 05/30/16 03:00:57
