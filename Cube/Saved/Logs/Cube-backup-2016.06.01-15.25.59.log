@@ -1,0 +1,1512 @@
+﻿Log file open, 05/31/16 20:23:31
+LogInit:Display: Running engine for game: Cube
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1429128910) SRandInit(1429128911).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.089547
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/unreal/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.31-11.23.31:499][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.31-11.23.31:499][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.31-11.23.31:507][  0]LogInit: Computer: OWNER-PC
+[2016.05.31-11.23.31:507][  0]LogInit: User: Owner
+[2016.05.31-11.23.31:507][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.31-11.23.31:507][  0]LogInit: High frequency timer resolution =3.417966 MHz
+[2016.05.31-11.23.31:507][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.31-11.23.31:507][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.23.31:507][  0]LogMemory: Process Physical Memory: 314.12 MB used, 314.12 MB peak
+[2016.05.31-11.23.31:507][  0]LogMemory: Process Virtual Memory: 314.68 MB used, 314.68 MB peak
+[2016.05.31-11.23.31:507][  0]LogMemory: Physical Memory: 3465.85 MB used, 16312.00 MB total
+[2016.05.31-11.23.31:507][  0]LogMemory: Virtual Memory: 651.30 MB used, 134217728.00 MB total
+[2016.05.31-11.23.31:651][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.05.31-11.23.31:682][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.05.31-11.23.31:682][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.05.31-11.23.31:682][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.05.31-11.23.31:682][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/unreal/Epic Games/4.11/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.05.31-11.23.31:830][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.31-11.23.31:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.05.31-11.23.31:857][  0]LogD3D11RHI:       1969MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2016.05.31-11.23.31:863][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.31-11.23.31:863][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2016.05.31-11.23.31:863][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.31-11.23.31:866][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.31-11.23.31:866][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.05.31-11.23.31:866][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.31-11.23.31:866][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.31-11.23.31:866][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.31-11.23.31:881][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.31-11.23.31:902][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Programming/unreal/Cube/Cube/Intermediate/Shaders/WorkingDirectory/2812/).
+[2016.05.31-11.23.31:902][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/9F4ADC5E4934F6005896859FB6171F7A/'.
+[2016.05.31-11.23.31:902][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.31-11.23.34:521][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.31-11.23.34:525][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.31-11.23.34:528][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.31-11.23.34:532][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.31-11.23.34:535][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.31-11.23.34:539][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.31-11.23.34:541][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.31-11.23.34:544][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.31-11.23.34:546][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.31-11.23.34:549][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.31-11.23.34:551][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.31-11.23.34:557][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.31-11.23.34:557][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.31-11.23.34:557][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.31-11.23.34:589][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.31-11.23.34:591][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.31-11.23.34:593][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.31-11.23.34:596][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.31-11.23.34:599][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.31-11.23.34:599][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.31-11.23.34:910][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.31-11.23.35:106][  0]LogDerivedDataCache: Loaded boot cache 0.20s 46MB C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.31-11.23.35:107][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.31-11.23.35:107][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.31-11.23.35:107][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.31-11.23.35:107][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Programming/unreal/Cube/Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.31-11.23.35:107][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.31-11.23.35:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.31-11.23.35:230][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.31-11.23.39:418][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.31-11.23.39:458][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.31-11.23.40:208][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.31-11.23.41:093][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.31-11.23.41:093][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.31-11.23.41:093][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.31-11.23.43:559][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.31-11.23.43:559][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.31-11.23.43:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.31-11.23.43:564][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.31-11.23.44:715][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.31-11.23.44:716][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.31-11.23.46:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.31-11.23.46:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.31-11.23.46:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.31-11.23.46:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.31-11.23.46:206][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.31-11.23.46:206][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.31-11.23.50:787][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.31-11.23.51:408][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2016.05.31-11.23.54:271][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.31-11.23.54:384][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.31-11.23.54:437][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.31-11.23.54:458][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.31-11.23.54:891][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.31-11.23.55:342][  0]LogEngine: Initializing Engine...
+[2016.05.31-11.23.56:016][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.31-11.23.56:160][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.23.56:206][  0]LogInit: FAudioDevice initialized.
+[2016.05.31-11.23.56:255][  0]LogDerivedDataCache: Saved boot cache 0.05s 46MB C:/Users/Owner/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.31-11.23.56:312][  0]LogInit: Texture streaming: Enabled
+[2016.05.31-11.23.56:671][  0]LogInit: Transaction tracking system initialized
+[2016.05.31-11.23.57:506][  0]BlueprintLog: New page: 에디터 로드
+[2016.05.31-11.24.00:886][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.05.31-11.24.02:566][  0]LogConsoleResponse:Display: 
+[2016.05.31-11.24.05:221][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/' took 0.16s
+[2016.05.31-11.24.05:221][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.31-11.24.05:221][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.31-11.24.05:237][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.31-11.24.06:072][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.05.31-11.24.06:136][  0]Cmd: MAP LOAD FILE="../../../../../../Programming/unreal/Cube/Cube/Content/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.31-11.24.06:282][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.31-11.24.06:557][  0]MapCheck: New page: 맵 체크
+[2016.05.31-11.24.06:557][  0]LightingResults: New page: 라이팅 빌드
+[2016.05.31-11.24.08:231][  0]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.24.08:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.31-11.24.08:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.31-11.24.08:464][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 57.391ms.
+[2016.05.31-11.24.08:464][  0]LogFileHelpers: Loading map 'Start' took 2.356
+[2016.05.31-11.24.12:906][  0]LogCollectionManager: Loaded 1 collections in 0.065168 seconds
+[2016.05.31-11.24.13:337][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Saved/Collections/' took 0.01s
+[2016.05.31-11.24.13:337][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Developers/Owner/Collections/' took 0.01s
+[2016.05.31-11.24.13:337][  0]LogFileCache: Scanning file cache for directory 'D:/Programming/unreal/Cube/Cube/Content/Collections/' took 0.02s
+[2016.05.31-11.24.13:337][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000008 seconds
+[2016.05.31-11.24.13:337][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.05.31-11.24.13:350][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 1979 classes and 343 folders.
+[2016.05.31-11.24.13:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.31-11.24.13:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.31-11.24.13:462][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.31-11.24.13:486][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.31-11.24.14:048][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.05.31-11.24.15:409][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.31-11.24.15:485][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.31-11.24.16:323][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.31-11.24.16:445][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.05.31-11.24.16:586][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.31-11.24.16:586][  0]LogLoad: Full Startup: 46.38 seconds (BP compile: 0.50 seconds)
+[2016.05.31-11.24.16:586][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.31-11.24.16:586][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.31-11.24.17:037][  0]LogOcInput: OculusInput pre-init called
+[2016.05.31-11.24.17:689][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.31-11.24.18:318][  0]LogRenderer: Reallocating scene render targets to support 1116x568 (Frame:2).
+[2016.05.31-11.24.20:429][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.05.31-11.24.24:958][  2]LogLinker:Warning: 애셋 이름을 해석할 수 없습니다.
+[2016.05.31-11.24.26:542][  3]LogAssetRegistry: Asset discovery search completed in 35.1559 seconds
+[2016.05.31-11.24.26:542][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000001 seconds (found 0 objects)
+[2016.05.31-11.24.26:542][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000039 seconds (updated 0 objects)
+[2016.05.31-11.25.57:230][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.25.57:230][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.25.57:316][359]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:25:57)
+[2016.05.31-11.25.57:316][359]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.25.57:328][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012169s)
+[2016.05.31-11.25.57:328][359]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.25.57:329][359]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2016.05.31-11.25.57:329][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.013022s)
+[2016.05.31-11.25.57:403][359]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.25.57:420][359]LogInit: FAudioDevice initialized.
+[2016.05.31-11.25.57:568][359]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.25.57:586][359]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.25.57
+[2016.05.31-11.25.57:586][359]LogWorld: Bringing up level for play took: 0.001088
+[2016.05.31-11.25.57:628][359]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.05.31-11.25.57:696][359]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_1
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.25.57:697][359]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.25.57:697][359]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_1
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.25.57:697][359]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.25.58:922][359]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.794
+[2016.05.31-11.25.58:923][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.26.02:615][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.26.02:730][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.26.49:249][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.26.49:249][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.26.49:250][730]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:26:49)
+[2016.05.31-11.26.49:250][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.26.49:251][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2016.05.31-11.26.49:252][730]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.26.49:252][730]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2016.05.31-11.26.49:252][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002292s)
+[2016.05.31-11.26.49:301][730]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.26.49:318][730]LogInit: FAudioDevice initialized.
+[2016.05.31-11.26.49:354][730]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.26.49:355][730]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.26.49
+[2016.05.31-11.26.49:355][730]LogWorld: Bringing up level for play took: 0.000982
+[2016.05.31-11.26.49:386][730]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_2
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.26.49:386][730]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.26.49:386][730]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_2
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.26.49:386][730]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.26.50:298][730]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.169
+[2016.05.31-11.26.50:298][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.26.55:722][109]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.26.55:722][109]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.26.55:755][109]Cmd: MEM
+[2016.05.31-11.26.55:820][109]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.26.55:820][109]LogMemory: Process Physical Memory: 1241.19 MB used, 1241.94 MB peak
+[2016.05.31-11.26.55:820][109]LogMemory: Process Virtual Memory: 2152.46 MB used, 2156.28 MB peak
+[2016.05.31-11.26.55:820][109]LogMemory: Physical Memory: 4830.62 MB used, 16312.00 MB total
+[2016.05.31-11.26.55:820][109]LogMemory: Virtual Memory: 2866.16 MB used, 134217728.00 MB total
+[2016.05.31-11.26.55:820][109]LogMemory: 
+[2016.05.31-11.26.55:820][109]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.26.56:624][109]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.26.56:624][109]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.26.56:630][109]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.26.56
+[2016.05.31-11.26.56:631][109]LogWorld: Bringing up level for play took: 0.005394
+[2016.05.31-11.26.56:631][109]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.26.56:660][109]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.27.11:865][188]LogBlueprintUserMessages: [Question1] 1
+[2016.05.31-11.27.11:865][188]LogBlueprintUserMessages: [Question2] 2
+[2016.05.31-11.27.11:865][188]LogBlueprintUserMessages: [Stage_1_C_0] Fail
+[2016.05.31-11.27.11:866][188]LogBlueprintUserMessages: [Stage_1_C_0] Fail
+[2016.05.31-11.27.11:866][188]LogBlueprintUserMessages: [Question] 3
+[2016.05.31-11.27.11:866][188]LogBlueprintUserMessages: [Question3] 4
+[2016.05.31-11.27.11:866][188]LogBlueprintUserMessages: [Stage_1_C_0] Success
+[2016.05.31-11.27.11:867][188]LogBlueprintUserMessages: [Stage_1_C_0] Success
+[2016.05.31-11.27.11:883][189]LogNet: Browse: /Game/Stage_2
+[2016.05.31-11.27.11:884][189]LogLoad: LoadMap: /Game/Stage_2
+[2016.05.31-11.27.11:910][189]Cmd: MEM
+[2016.05.31-11.27.11:926][189]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.27.11:926][189]LogMemory: Process Physical Memory: 1279.65 MB used, 1290.25 MB peak
+[2016.05.31-11.27.11:926][189]LogMemory: Process Virtual Memory: 2188.97 MB used, 2261.00 MB peak
+[2016.05.31-11.27.11:926][189]LogMemory: Physical Memory: 4845.50 MB used, 16312.00 MB total
+[2016.05.31-11.27.11:926][189]LogMemory: Virtual Memory: 2915.28 MB used, 134217728.00 MB total
+[2016.05.31-11.27.11:926][189]LogMemory: 
+[2016.05.31-11.27.11:926][189]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.27.12:353][189]LogAIModule: Creating AISystem for world Stage_2
+[2016.05.31-11.27.12:353][189]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.27.12:359][189]LogWorld: Bringing World /Game/UEDPIE_0_Stage_2.Stage_2 up for play (max tick rate 0) at 2016.05.31-20.27.12
+[2016.05.31-11.27.12:360][189]LogWorld: Bringing up level for play took: 0.006166
+[2016.05.31-11.27.12:361][189]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.27.12:361][189]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.27.17:075][508]LogBlueprintUserMessages: [Stage_2_C_1] Fail
+[2016.05.31-11.27.17:075][508]LogBlueprintUserMessages: [Stage_2_C_1] Fail
+[2016.05.31-11.27.21:010][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.27.21:039][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.28.16:688][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.28.16:688][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.28.16:688][218]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:28:16)
+[2016.05.31-11.28.16:688][218]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.28.16:690][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001749s)
+[2016.05.31-11.28.16:690][218]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.28.16:690][218]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2016.05.31-11.28.16:691][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002386s)
+[2016.05.31-11.28.16:721][218]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.28.16:737][218]LogInit: FAudioDevice initialized.
+[2016.05.31-11.28.16:766][218]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.28.16:768][218]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.28.16
+[2016.05.31-11.28.16:768][218]LogWorld: Bringing up level for play took: 0.000987
+[2016.05.31-11.28.16:796][218]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_3
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.28.16:796][218]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.16:796][218]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_3
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.28.16:796][218]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.17:746][218]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.617
+[2016.05.31-11.28.17:746][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.28.18:650][303]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.28.18:650][303]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.28.18:684][303]Cmd: MEM
+[2016.05.31-11.28.18:699][303]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.28.18:699][303]LogMemory: Process Physical Memory: 1282.22 MB used, 1290.25 MB peak
+[2016.05.31-11.28.18:699][303]LogMemory: Process Virtual Memory: 2198.56 MB used, 2261.00 MB peak
+[2016.05.31-11.28.18:699][303]LogMemory: Physical Memory: 4930.94 MB used, 16312.00 MB total
+[2016.05.31-11.28.18:699][303]LogMemory: Virtual Memory: 2894.61 MB used, 134217728.00 MB total
+[2016.05.31-11.28.18:699][303]LogMemory: 
+[2016.05.31-11.28.18:699][303]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.28.19:100][303]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.28.19:100][303]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.28.19:106][303]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.28.19
+[2016.05.31-11.28.19:107][303]LogWorld: Bringing up level for play took: 0.005567
+[2016.05.31-11.28.19:107][303]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.28.19:108][303]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.28.37:075][ 62]LogNet: Browse: /Game/Start
+[2016.05.31-11.28.37:075][ 62]LogLoad: LoadMap: /Game/Start
+[2016.05.31-11.28.37:101][ 62]Cmd: MEM
+[2016.05.31-11.28.37:116][ 62]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.28.37:116][ 62]LogMemory: Process Physical Memory: 1281.51 MB used, 1292.63 MB peak
+[2016.05.31-11.28.37:116][ 62]LogMemory: Process Virtual Memory: 2196.58 MB used, 2269.63 MB peak
+[2016.05.31-11.28.37:116][ 62]LogMemory: Physical Memory: 4924.55 MB used, 16312.00 MB total
+[2016.05.31-11.28.37:116][ 62]LogMemory: Virtual Memory: 2898.67 MB used, 134217728.00 MB total
+[2016.05.31-11.28.37:116][ 62]LogMemory: 
+[2016.05.31-11.28.37:116][ 62]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.28.37:116][ 62]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.28.37:118][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2016.05.31-11.28.37:118][ 62]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.28.37:118][ 62]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2016.05.31-11.28.37:119][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002380s)
+[2016.05.31-11.28.37:119][ 62]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.28.37:120][ 62]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.28.37
+[2016.05.31-11.28.37:120][ 62]LogWorld: Bringing up level for play took: 0.000908
+[2016.05.31-11.28.37:121][ 62]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.28.37:150][ 62]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_4
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.28.37:150][ 62]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.37:150][ 62]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_4
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.28.37:150][ 62]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.39:509][195]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.28.39:509][195]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.28.39:544][195]Cmd: MEM
+[2016.05.31-11.28.39:559][195]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.28.39:559][195]LogMemory: Process Physical Memory: 1289.05 MB used, 1292.63 MB peak
+[2016.05.31-11.28.39:559][195]LogMemory: Process Virtual Memory: 2259.72 MB used, 2269.63 MB peak
+[2016.05.31-11.28.39:559][195]LogMemory: Physical Memory: 4936.76 MB used, 16312.00 MB total
+[2016.05.31-11.28.39:559][195]LogMemory: Virtual Memory: 2954.67 MB used, 134217728.00 MB total
+[2016.05.31-11.28.39:559][195]LogMemory: 
+[2016.05.31-11.28.39:559][195]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.28.39:963][195]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.28.39:963][195]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.28.39:969][195]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.28.39
+[2016.05.31-11.28.39:970][195]LogWorld: Bringing up level for play took: 0.005202
+[2016.05.31-11.28.39:970][195]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.28.39:971][195]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.28.56:243][771]LogNet: Browse: /Game/Start
+[2016.05.31-11.28.56:243][771]LogLoad: LoadMap: /Game/Start
+[2016.05.31-11.28.56:269][771]Cmd: MEM
+[2016.05.31-11.28.56:284][771]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.28.56:284][771]LogMemory: Process Physical Memory: 1285.70 MB used, 1293.29 MB peak
+[2016.05.31-11.28.56:284][771]LogMemory: Process Virtual Memory: 2201.99 MB used, 2295.73 MB peak
+[2016.05.31-11.28.56:284][771]LogMemory: Physical Memory: 4931.96 MB used, 16312.00 MB total
+[2016.05.31-11.28.56:284][771]LogMemory: Virtual Memory: 2914.73 MB used, 134217728.00 MB total
+[2016.05.31-11.28.56:284][771]LogMemory: 
+[2016.05.31-11.28.56:284][771]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.28.56:284][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.28.56:286][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001679s)
+[2016.05.31-11.28.56:286][771]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.28.56:286][771]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2016.05.31-11.28.56:286][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002277s)
+[2016.05.31-11.28.56:286][771]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.28.56:288][771]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.28.56
+[2016.05.31-11.28.56:288][771]LogWorld: Bringing up level for play took: 0.000900
+[2016.05.31-11.28.56:288][771]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.28.56:314][771]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_5
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.28.56:314][771]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.56:314][771]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_5
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.28.56:314][771]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.28.59:579][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.28.59:608][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.29.41:630][240]LogEditorViewport: Clicking Background
+[2016.05.31-11.31.35:397][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.31.35:397][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.31.35:397][382]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:31:35)
+[2016.05.31-11.31.35:397][382]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.31.35:399][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001886s)
+[2016.05.31-11.31.35:400][382]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.31.35:400][382]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2016.05.31-11.31.35:400][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002538s)
+[2016.05.31-11.31.35:429][382]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.31.35:446][382]LogInit: FAudioDevice initialized.
+[2016.05.31-11.31.35:474][382]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.31.35:476][382]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.31.35
+[2016.05.31-11.31.35:476][382]LogWorld: Bringing up level for play took: 0.001200
+[2016.05.31-11.31.35:503][382]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_6
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.31.35:503][382]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.31.35:503][382]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_6
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.31.35:503][382]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.31.36:424][382]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.296
+[2016.05.31-11.31.36:425][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.31.37:424][485]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.31.37:424][485]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.31.37:458][485]Cmd: MEM
+[2016.05.31-11.31.37:473][485]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.31.37:473][485]LogMemory: Process Physical Memory: 1295.84 MB used, 1297.73 MB peak
+[2016.05.31-11.31.37:473][485]LogMemory: Process Virtual Memory: 2211.22 MB used, 2295.73 MB peak
+[2016.05.31-11.31.37:473][485]LogMemory: Physical Memory: 5011.55 MB used, 16312.00 MB total
+[2016.05.31-11.31.37:473][485]LogMemory: Virtual Memory: 2914.86 MB used, 134217728.00 MB total
+[2016.05.31-11.31.37:473][485]LogMemory: 
+[2016.05.31-11.31.37:473][485]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.31.37:868][485]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.31.37:869][485]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.31.37:874][485]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.31.37
+[2016.05.31-11.31.37:875][485]LogWorld: Bringing up level for play took: 0.005445
+[2016.05.31-11.31.37:875][485]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.31.37:876][485]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.31.46:875][451]LogNet: Browse: /Game/Start
+[2016.05.31-11.31.46:875][451]LogLoad: LoadMap: /Game/Start
+[2016.05.31-11.31.46:901][451]Cmd: MEM
+[2016.05.31-11.31.46:916][451]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.31.46:916][451]LogMemory: Process Physical Memory: 1293.79 MB used, 1300.50 MB peak
+[2016.05.31-11.31.46:916][451]LogMemory: Process Virtual Memory: 2206.48 MB used, 2295.73 MB peak
+[2016.05.31-11.31.46:916][451]LogMemory: Physical Memory: 5035.22 MB used, 16312.00 MB total
+[2016.05.31-11.31.46:916][451]LogMemory: Virtual Memory: 2914.86 MB used, 134217728.00 MB total
+[2016.05.31-11.31.46:916][451]LogMemory: 
+[2016.05.31-11.31.46:916][451]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.31.46:916][451]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.31.46:918][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001693s)
+[2016.05.31-11.31.46:919][451]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.31.46:919][451]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2016.05.31-11.31.46:919][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002315s)
+[2016.05.31-11.31.46:919][451]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.31.46:920][451]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.31.46
+[2016.05.31-11.31.46:920][451]LogWorld: Bringing up level for play took: 0.000937
+[2016.05.31-11.31.46:921][451]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.31.46:950][451]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_7
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.31.46:950][451]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.31.46:950][451]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_7
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.31.46:950][451]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.32.12:923][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.12:967][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.13:526][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.13:526][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.32.13:526][194]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:32:13)
+[2016.05.31-11.32.13:527][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.32.13:528][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001769s)
+[2016.05.31-11.32.13:529][194]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.32.13:529][194]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2016.05.31-11.32.13:529][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002416s)
+[2016.05.31-11.32.13:558][194]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.32.13:574][194]LogInit: FAudioDevice initialized.
+[2016.05.31-11.32.13:602][194]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.32.13:603][194]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.32.13
+[2016.05.31-11.32.13:603][194]LogWorld: Bringing up level for play took: 0.000932
+[2016.05.31-11.32.13:631][194]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_8
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.32.13:631][194]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.32.13:631][194]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_8
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.32.13:631][194]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.32.14:549][194]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.42
+[2016.05.31-11.32.14:549][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.15:187][260]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.32.15:187][260]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.32.15:221][260]Cmd: MEM
+[2016.05.31-11.32.15:237][260]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.32.15:237][260]LogMemory: Process Physical Memory: 1297.09 MB used, 1300.50 MB peak
+[2016.05.31-11.32.15:237][260]LogMemory: Process Virtual Memory: 2226.35 MB used, 2295.73 MB peak
+[2016.05.31-11.32.15:237][260]LogMemory: Physical Memory: 5043.87 MB used, 16312.00 MB total
+[2016.05.31-11.32.15:237][260]LogMemory: Virtual Memory: 2941.98 MB used, 134217728.00 MB total
+[2016.05.31-11.32.15:237][260]LogMemory: 
+[2016.05.31-11.32.15:237][260]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.32.15:633][260]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.32.15:633][260]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.32.15:638][260]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.32.15
+[2016.05.31-11.32.15:639][260]LogWorld: Bringing up level for play took: 0.005198
+[2016.05.31-11.32.15:640][260]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.32.15:641][260]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.32.24:145][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.24:184][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.32.27:579][492]LogEditorViewport: Clicking Background
+[2016.05.31-11.35.00:182][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.00:182][544]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.35.00:186][544]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.35.00:265][544]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2016.05.31-11.35.00:283][544]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:35:00)
+[2016.05.31-11.35.00:283][544]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.35.00:285][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001796s)
+[2016.05.31-11.35.00:285][544]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.35.00:285][544]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2016.05.31-11.35.00:285][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002460s)
+[2016.05.31-11.35.00:315][544]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.35.00:333][544]LogInit: FAudioDevice initialized.
+[2016.05.31-11.35.00:363][544]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.35.00:365][544]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.35.00
+[2016.05.31-11.35.00:365][544]LogWorld: Bringing up level for play took: 0.001339
+[2016.05.31-11.35.00:393][544]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_9
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.35.00:393][544]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.00:393][544]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_9
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.35.00:393][544]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.01:340][544]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.212
+[2016.05.31-11.35.01:341][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.02:670][699]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.35.02:670][699]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.35.02:705][699]Cmd: MEM
+[2016.05.31-11.35.02:722][699]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.35.02:722][699]LogMemory: Process Physical Memory: 1343.63 MB used, 1343.64 MB peak
+[2016.05.31-11.35.02:722][699]LogMemory: Process Virtual Memory: 2362.70 MB used, 2362.70 MB peak
+[2016.05.31-11.35.02:722][699]LogMemory: Physical Memory: 5047.16 MB used, 16312.00 MB total
+[2016.05.31-11.35.02:722][699]LogMemory: Virtual Memory: 3079.25 MB used, 134217728.00 MB total
+[2016.05.31-11.35.02:722][699]LogMemory: 
+[2016.05.31-11.35.02:722][699]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.35.03:116][699]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.35.03:117][699]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.35.03:122][699]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.35.03
+[2016.05.31-11.35.03:123][699]LogWorld: Bringing up level for play took: 0.005352
+[2016.05.31-11.35.03:123][699]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.35.03:124][699]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.35.06:305][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.06:337][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.17:504][358]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.35.17:575][358]BlueprintEditorCompileResults: 정보 [0707.37] MiniMapWG 컴파일에 성공했습니다! [소요시간 71 ms]
+[2016.05.31-11.35.19:496][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.19:496][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.35.19:496][580]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:35:19)
+[2016.05.31-11.35.19:496][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.35.19:498][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2016.05.31-11.35.19:498][580]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.35.19:498][580]LogPlayLevel: PIE: World Init took: (0.000442s)
+[2016.05.31-11.35.19:499][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002255s)
+[2016.05.31-11.35.19:528][580]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.35.19:545][580]LogInit: FAudioDevice initialized.
+[2016.05.31-11.35.19:577][580]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.35.19:578][580]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.35.19
+[2016.05.31-11.35.19:579][580]LogWorld: Bringing up level for play took: 0.001115
+[2016.05.31-11.35.19:606][580]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_10
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.35.19:606][580]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.19:606][580]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_10
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.35.19:606][580]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.20:546][580]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.418
+[2016.05.31-11.35.20:546][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.22:150][765]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.35.22:151][765]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.35.22:186][765]Cmd: MEM
+[2016.05.31-11.35.22:204][765]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.35.22:204][765]LogMemory: Process Physical Memory: 1349.45 MB used, 1349.46 MB peak
+[2016.05.31-11.35.22:204][765]LogMemory: Process Virtual Memory: 2370.98 MB used, 2427.94 MB peak
+[2016.05.31-11.35.22:204][765]LogMemory: Physical Memory: 5051.23 MB used, 16312.00 MB total
+[2016.05.31-11.35.22:204][765]LogMemory: Virtual Memory: 3084.45 MB used, 134217728.00 MB total
+[2016.05.31-11.35.22:204][765]LogMemory: 
+[2016.05.31-11.35.22:204][765]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.35.22:599][765]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.35.22:600][765]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.35.22:605][765]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.35.22
+[2016.05.31-11.35.22:605][765]LogWorld: Bringing up level for play took: 0.005130
+[2016.05.31-11.35.22:606][765]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.35.22:607][765]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.35.25:227][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.25:262][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.25:797][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.25:797][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.35.25:797][108]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:35:25)
+[2016.05.31-11.35.25:797][108]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.35.25:799][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
+[2016.05.31-11.35.25:799][108]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.35.25:799][108]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2016.05.31-11.35.25:799][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002392s)
+[2016.05.31-11.35.25:829][108]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.35.25:845][108]LogInit: FAudioDevice initialized.
+[2016.05.31-11.35.25:873][108]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.35.25:875][108]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.35.25
+[2016.05.31-11.35.25:875][108]LogWorld: Bringing up level for play took: 0.000971
+[2016.05.31-11.35.25:903][108]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_11
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.35.25:903][108]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.25:903][108]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_11
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.35.25:903][108]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.35.26:845][108]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.716
+[2016.05.31-11.35.26:845][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.28:386][285]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.35.28:386][285]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.35.28:421][285]Cmd: MEM
+[2016.05.31-11.35.28:437][285]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.35.28:437][285]LogMemory: Process Physical Memory: 1351.05 MB used, 1354.30 MB peak
+[2016.05.31-11.35.28:438][285]LogMemory: Process Virtual Memory: 2394.12 MB used, 2435.16 MB peak
+[2016.05.31-11.35.28:438][285]LogMemory: Physical Memory: 5053.28 MB used, 16312.00 MB total
+[2016.05.31-11.35.28:438][285]LogMemory: Virtual Memory: 3118.52 MB used, 134217728.00 MB total
+[2016.05.31-11.35.28:438][285]LogMemory: 
+[2016.05.31-11.35.28:438][285]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.35.28:838][285]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.35.28:838][285]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.35.28:843][285]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.35.28
+[2016.05.31-11.35.28:844][285]LogWorld: Bringing up level for play took: 0.005409
+[2016.05.31-11.35.28:844][285]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.35.28:845][285]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.35.37:406][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.35.37:438][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.36.12:922][505]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.36.13:010][505]BlueprintEditorCompileResults: 정보 [0762.80] MiniMapWG 컴파일에 성공했습니다! [소요시간 88 ms]
+[2016.05.31-11.37.02:866][301]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2172.EdGraphPin_119525''
+[2016.05.31-11.37.12:307][400]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.37.12:382][400]BlueprintEditorCompileResults: 정보 [0822.18] MiniMapWG 컴파일에 성공했습니다! [소요시간 75 ms]
+[2016.05.31-11.37.13:650][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.13:650][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.37.13:651][538]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:37:13)
+[2016.05.31-11.37.13:651][538]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.37.13:652][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001767s)
+[2016.05.31-11.37.13:653][538]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.37.13:653][538]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2016.05.31-11.37.13:653][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002517s)
+[2016.05.31-11.37.13:682][538]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.37.13:698][538]LogInit: FAudioDevice initialized.
+[2016.05.31-11.37.13:730][538]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.37.13:731][538]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.37.13
+[2016.05.31-11.37.13:731][538]LogWorld: Bringing up level for play took: 0.000952
+[2016.05.31-11.37.13:759][538]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_12
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.37.13:759][538]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.37.13:759][538]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_12
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.37.13:759][538]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.37.14:705][538]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.577
+[2016.05.31-11.37.14:706][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.15:512][623]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.37.15:512][623]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.37.15:548][623]Cmd: MEM
+[2016.05.31-11.37.15:564][623]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.37.15:564][623]LogMemory: Process Physical Memory: 1361.75 MB used, 1365.38 MB peak
+[2016.05.31-11.37.15:564][623]LogMemory: Process Virtual Memory: 2385.61 MB used, 2442.41 MB peak
+[2016.05.31-11.37.15:564][623]LogMemory: Physical Memory: 5046.71 MB used, 16312.00 MB total
+[2016.05.31-11.37.15:564][623]LogMemory: Virtual Memory: 3094.84 MB used, 134217728.00 MB total
+[2016.05.31-11.37.15:564][623]LogMemory: 
+[2016.05.31-11.37.15:564][623]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.37.15:965][623]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.37.15:965][623]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.37.15:970][623]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.37.15
+[2016.05.31-11.37.15:971][623]LogWorld: Bringing up level for play took: 0.005286
+[2016.05.31-11.37.15:972][623]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.37.15:972][623]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.37.22:540][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.22:572][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.35:502][859]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2678.EdGraphPin_119525''
+[2016.05.31-11.37.42:375][649]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.37.42:451][649]BlueprintEditorCompileResults: 정보 [0852.24] MiniMapWG 컴파일에 성공했습니다! [소요시간 75 ms]
+[2016.05.31-11.37.43:541][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.43:541][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.37.43:541][770]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:37:43)
+[2016.05.31-11.37.43:541][770]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.37.43:543][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2016.05.31-11.37.43:543][770]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.37.43:543][770]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2016.05.31-11.37.43:544][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002332s)
+[2016.05.31-11.37.43:573][770]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.37.43:589][770]LogInit: FAudioDevice initialized.
+[2016.05.31-11.37.43:621][770]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.37.43:622][770]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.37.43
+[2016.05.31-11.37.43:622][770]LogWorld: Bringing up level for play took: 0.001134
+[2016.05.31-11.37.43:651][770]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_13
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.37.43:651][770]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.37.43:651][770]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_13
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.37.43:651][770]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.37.44:594][770]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.465
+[2016.05.31-11.37.44:594][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.48:518][209]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.37.48:518][209]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.37.48:554][209]Cmd: MEM
+[2016.05.31-11.37.48:570][209]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.37.48:570][209]LogMemory: Process Physical Memory: 1368.47 MB used, 1368.94 MB peak
+[2016.05.31-11.37.48:570][209]LogMemory: Process Virtual Memory: 2389.76 MB used, 2453.97 MB peak
+[2016.05.31-11.37.48:570][209]LogMemory: Physical Memory: 5054.95 MB used, 16312.00 MB total
+[2016.05.31-11.37.48:570][209]LogMemory: Virtual Memory: 3100.97 MB used, 134217728.00 MB total
+[2016.05.31-11.37.48:570][209]LogMemory: 
+[2016.05.31-11.37.48:570][209]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.37.48:968][209]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.37.48:968][209]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.37.48:974][209]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.37.48
+[2016.05.31-11.37.48:975][209]LogWorld: Bringing up level for play took: 0.005833
+[2016.05.31-11.37.48:975][209]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.37.48:976][209]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.37.52:242][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.37.52:271][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.38.00:016][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.38.00:016][444]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.38.00:021][444]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.38.00:081][444]LogPlayLevel: PlayLevel: Blueprint regeneration took 65 ms (1 blueprints)
+[2016.05.31-11.38.00:099][444]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:38:00)
+[2016.05.31-11.38.00:099][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.38.00:101][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001724s)
+[2016.05.31-11.38.00:101][444]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.38.00:101][444]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2016.05.31-11.38.00:101][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002370s)
+[2016.05.31-11.38.00:130][444]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.38.00:147][444]LogInit: FAudioDevice initialized.
+[2016.05.31-11.38.00:177][444]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.38.00:178][444]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.38.00
+[2016.05.31-11.38.00:178][444]LogWorld: Bringing up level for play took: 0.000985
+[2016.05.31-11.38.00:206][444]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_14
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.38.00:206][444]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.38.00:206][444]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_14
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.38.00:206][444]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.38.01:143][444]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.014
+[2016.05.31-11.38.01:143][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.38.02:433][583]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.38.02:434][583]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.38.02:469][583]Cmd: MEM
+[2016.05.31-11.38.02:485][583]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.38.02:485][583]LogMemory: Process Physical Memory: 1374.59 MB used, 1377.62 MB peak
+[2016.05.31-11.38.02:485][583]LogMemory: Process Virtual Memory: 2404.36 MB used, 2456.74 MB peak
+[2016.05.31-11.38.02:485][583]LogMemory: Physical Memory: 5114.68 MB used, 16312.00 MB total
+[2016.05.31-11.38.02:485][583]LogMemory: Virtual Memory: 3117.03 MB used, 134217728.00 MB total
+[2016.05.31-11.38.02:485][583]LogMemory: 
+[2016.05.31-11.38.02:485][583]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.38.02:882][583]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.38.02:882][583]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.38.02:887][583]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.38.02
+[2016.05.31-11.38.02:888][583]LogWorld: Bringing up level for play took: 0.005200
+[2016.05.31-11.38.02:889][583]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.38.02:889][583]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.38.05:681][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.38.05:710][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree_65.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Engine/Transient.World_12:MiniMapWG_C_7.WidgetTree_65.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG:WidgetTree.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree_63.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Engine/Transient.World_12:MiniMapWG_C_9.WidgetTree_67.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Engine/Transient.World_12:MiniMapWG_C_8.WidgetTree_66.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree_64.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree_67.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree_66.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329 or CanvasPanel /Engine/Transient.World_12:MiniMapWG_C_6.WidgetTree_64.CanvasPanel_329
+[2016.05.31-11.38.56:235][833]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/BP/MiniMapWG.MiniMapWG_C:WidgetTree.CanvasPanel_329.CanvasPanelSlot_664) from referencer (Button /Engine/UMG/Editor/Transient.Button_208).  Import failed...
+[2016.05.31-11.38.56:235][833]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_329.CanvasPanelSlot_664''
+[2016.05.31-11.40.39:790][ 35]LogEditorTransaction: Undo 바인딩 생성
+[2016.05.31-11.42.55:329][331]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/Transient.K2Node_VariableGet_3541 or K2Node_VariableGet /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_VariableGet_3541
+[2016.05.31-11.42.55:329][331]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3541.EdGraphPin_172425''
+[2016.05.31-11.42.55:329][331]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_CallFunction_8623 or K2Node_CallFunction /Engine/Transient.EdGraph_475:K2Node_CallFunction_8623
+[2016.05.31-11.42.55:329][331]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_CallFunction_8623 or K2Node_CallFunction /Engine/Transient.EdGraph_471:K2Node_CallFunction_8623
+[2016.05.31-11.42.55:329][331]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8623.EdGraphPin_172413''
+[2016.05.31-11.42.55:329][331]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/Transient.K2Node_VariableGet_3542 or K2Node_VariableGet /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_VariableGet_3542
+[2016.05.31-11.42.55:329][331]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3542.EdGraphPin_172427''
+[2016.05.31-11.42.58:293][667]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/Transient.K2Node_VariableGet_3541 or K2Node_VariableGet /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_VariableGet_3541
+[2016.05.31-11.42.58:293][667]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3541.EdGraphPin_172425''
+[2016.05.31-11.42.58:293][667]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_CallFunction_8623 or K2Node_CallFunction /Engine/Transient.EdGraph_475:K2Node_CallFunction_8623
+[2016.05.31-11.42.58:293][667]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_CallFunction_8623 or K2Node_CallFunction /Engine/Transient.EdGraph_471:K2Node_CallFunction_8623
+[2016.05.31-11.42.58:293][667]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8623.EdGraphPin_172413''
+[2016.05.31-11.42.58:293][667]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Engine/Transient.K2Node_VariableGet_3542 or K2Node_VariableGet /Game/BP/MiniMapWG.MiniMapWG:EventGraph.K2Node_VariableGet_3542
+[2016.05.31-11.42.58:293][667]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3542.EdGraphPin_172427''
+[2016.05.31-11.43.11:449][105]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.43.11:549][105]BlueprintEditorCompileResults: 정보 [1181.34] MiniMapWG 컴파일에 성공했습니다! [소요시간 99 ms]
+[2016.05.31-11.43.12:714][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.43.12:714][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.43.12:714][225]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:43:12)
+[2016.05.31-11.43.12:714][225]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.43.12:716][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001777s)
+[2016.05.31-11.43.12:716][225]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.43.12:716][225]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2016.05.31-11.43.12:716][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002443s)
+[2016.05.31-11.43.12:746][225]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.43.12:762][225]LogInit: FAudioDevice initialized.
+[2016.05.31-11.43.12:792][225]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.43.12:794][225]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.43.12
+[2016.05.31-11.43.12:794][225]LogWorld: Bringing up level for play took: 0.001065
+[2016.05.31-11.43.12:823][225]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_15
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.43.12:823][225]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.43.12:823][225]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_15
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.43.12:823][225]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.43.13:769][225]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.641
+[2016.05.31-11.43.13:769][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.43.14:692][319]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.43.14:692][319]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.43.14:730][319]Cmd: MEM
+[2016.05.31-11.43.14:746][319]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.43.14:746][319]LogMemory: Process Physical Memory: 1410.85 MB used, 1410.86 MB peak
+[2016.05.31-11.43.14:746][319]LogMemory: Process Virtual Memory: 2438.63 MB used, 2474.54 MB peak
+[2016.05.31-11.43.14:746][319]LogMemory: Physical Memory: 5135.87 MB used, 16312.00 MB total
+[2016.05.31-11.43.14:746][319]LogMemory: Virtual Memory: 3145.37 MB used, 134217728.00 MB total
+[2016.05.31-11.43.14:746][319]LogMemory: 
+[2016.05.31-11.43.14:746][319]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.43.15:130][319]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.43.15:131][319]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.43.15:136][319]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.43.15
+[2016.05.31-11.43.15:137][319]LogWorld: Bringing up level for play took: 0.005491
+[2016.05.31-11.43.15:138][319]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.43.15:138][319]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.43.17:989][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.43.18:021][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.10:685][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.10:685][430]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.44.10:695][430]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.44.10:771][430]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2016.05.31-11.44.10:789][430]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:44:10)
+[2016.05.31-11.44.10:789][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.44.10:790][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001684s)
+[2016.05.31-11.44.10:791][430]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.44.10:791][430]LogPlayLevel: PIE: World Init took: (0.000439s)
+[2016.05.31-11.44.10:791][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002287s)
+[2016.05.31-11.44.10:821][430]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.44.10:837][430]LogInit: FAudioDevice initialized.
+[2016.05.31-11.44.10:864][430]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.44.10:866][430]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.44.10
+[2016.05.31-11.44.10:866][430]LogWorld: Bringing up level for play took: 0.001012
+[2016.05.31-11.44.10:894][430]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_16
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.44.10:894][430]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.44.10:894][430]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_16
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.44.10:894][430]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.44.11:843][430]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.714
+[2016.05.31-11.44.11:843][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.12:567][507]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.44.12:567][507]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.44.12:601][507]Cmd: MEM
+[2016.05.31-11.44.12:617][507]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.44.12:617][507]LogMemory: Process Physical Memory: 1451.30 MB used, 1454.33 MB peak
+[2016.05.31-11.44.12:617][507]LogMemory: Process Virtual Memory: 2478.20 MB used, 2502.81 MB peak
+[2016.05.31-11.44.12:617][507]LogMemory: Physical Memory: 5174.23 MB used, 16312.00 MB total
+[2016.05.31-11.44.12:617][507]LogMemory: Virtual Memory: 3184.92 MB used, 134217728.00 MB total
+[2016.05.31-11.44.12:617][507]LogMemory: 
+[2016.05.31-11.44.12:617][507]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.44.13:016][507]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.44.13:016][507]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.44.13:021][507]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.44.13
+[2016.05.31-11.44.13:022][507]LogWorld: Bringing up level for play took: 0.005184
+[2016.05.31-11.44.13:023][507]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.44.13:023][507]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.44.18:943][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.18:975][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.28:838][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2172.EdGraphPin_140529''
+[2016.05.31-11.44.28:838][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10632.EdGraphPin_172429''
+[2016.05.31-11.44.28:839][252]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10633.EdGraphPin_172441''
+[2016.05.31-11.44.36:316][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.36:316][990]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.44.36:326][990]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.44.36:403][990]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2016.05.31-11.44.36:420][990]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:44:36)
+[2016.05.31-11.44.36:421][990]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.44.36:422][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001911s)
+[2016.05.31-11.44.36:423][990]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.44.36:423][990]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2016.05.31-11.44.36:423][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002576s)
+[2016.05.31-11.44.36:452][990]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.44.36:469][990]LogInit: FAudioDevice initialized.
+[2016.05.31-11.44.36:496][990]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.44.36:498][990]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.44.36
+[2016.05.31-11.44.36:498][990]LogWorld: Bringing up level for play took: 0.000974
+[2016.05.31-11.44.36:527][990]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_17
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.44.36:527][990]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.44.36:527][990]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_17
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.44.36:527][990]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.44.37:473][990]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.344
+[2016.05.31-11.44.37:473][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.38:556][ 86]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.44.38:557][ 86]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.44.38:593][ 86]Cmd: MEM
+[2016.05.31-11.44.38:610][ 86]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.44.38:610][ 86]LogMemory: Process Physical Memory: 1454.30 MB used, 1459.84 MB peak
+[2016.05.31-11.44.38:610][ 86]LogMemory: Process Virtual Memory: 2483.29 MB used, 2548.52 MB peak
+[2016.05.31-11.44.38:610][ 86]LogMemory: Physical Memory: 5177.11 MB used, 16312.00 MB total
+[2016.05.31-11.44.38:610][ 86]LogMemory: Virtual Memory: 3191.88 MB used, 134217728.00 MB total
+[2016.05.31-11.44.38:610][ 86]LogMemory: 
+[2016.05.31-11.44.38:610][ 86]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.44.39:011][ 86]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.44.39:012][ 86]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.44.39:017][ 86]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.44.39
+[2016.05.31-11.44.39:018][ 86]LogWorld: Bringing up level for play took: 0.005687
+[2016.05.31-11.44.39:018][ 86]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.44.39:019][ 86]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.44.43:707][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.44.43:737][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.45.46:934][251]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.45.47:031][251]BlueprintEditorCompileResults: 정보 [1336.82] MiniMapWG 컴파일에 성공했습니다! [소요시간 96 ms]
+[2016.05.31-11.45.48:168][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.45.48:168][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.45.48:168][357]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:45:48)
+[2016.05.31-11.45.48:168][357]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.45.48:170][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2016.05.31-11.45.48:170][357]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.45.48:170][357]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2016.05.31-11.45.48:170][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002294s)
+[2016.05.31-11.45.48:199][357]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.45.48:215][357]LogInit: FAudioDevice initialized.
+[2016.05.31-11.45.48:247][357]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.45.48:248][357]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.45.48
+[2016.05.31-11.45.48:248][357]LogWorld: Bringing up level for play took: 0.000945
+[2016.05.31-11.45.48:277][357]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_18
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.45.48:277][357]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.45.48:277][357]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_18
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.45.48:277][357]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.45.49:233][357]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.104
+[2016.05.31-11.45.49:233][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.45.50:508][474]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.45.50:508][474]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.45.50:544][474]Cmd: MEM
+[2016.05.31-11.45.50:560][474]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.45.50:560][474]LogMemory: Process Physical Memory: 1466.79 MB used, 1466.80 MB peak
+[2016.05.31-11.45.50:560][474]LogMemory: Process Virtual Memory: 2493.93 MB used, 2552.22 MB peak
+[2016.05.31-11.45.50:560][474]LogMemory: Physical Memory: 5210.11 MB used, 16312.00 MB total
+[2016.05.31-11.45.50:560][474]LogMemory: Virtual Memory: 3200.63 MB used, 134217728.00 MB total
+[2016.05.31-11.45.50:560][474]LogMemory: 
+[2016.05.31-11.45.50:560][474]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.45.50:960][474]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.45.50:960][474]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.45.50:965][474]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.45.50
+[2016.05.31-11.45.50:966][474]LogWorld: Bringing up level for play took: 0.005193
+[2016.05.31-11.45.50:966][474]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.45.50:967][474]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.45.53:525][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.45.53:553][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.47.27:985][759]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.47.28:076][759]BlueprintEditorCompileResults: 정보 [1437.87] MiniMapWG 컴파일에 성공했습니다! [소요시간 91 ms]
+[2016.05.31-11.47.29:048][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.47.29:048][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.47.29:048][853]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:47:29)
+[2016.05.31-11.47.29:048][853]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.47.29:050][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001709s)
+[2016.05.31-11.47.29:050][853]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.47.29:051][853]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2016.05.31-11.47.29:051][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002334s)
+[2016.05.31-11.47.29:080][853]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.47.29:097][853]LogInit: FAudioDevice initialized.
+[2016.05.31-11.47.29:125][853]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.47.29:127][853]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.47.29
+[2016.05.31-11.47.29:127][853]LogWorld: Bringing up level for play took: 0.001162
+[2016.05.31-11.47.29:156][853]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_19
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.47.29:156][853]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.47.29:156][853]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_19
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.47.29:156][853]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.47.30:101][853]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.972
+[2016.05.31-11.47.30:101][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.47.31:285][968]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.47.31:285][968]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.47.31:322][968]Cmd: MEM
+[2016.05.31-11.47.31:338][968]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.47.31:338][968]LogMemory: Process Physical Memory: 1471.53 MB used, 1474.27 MB peak
+[2016.05.31-11.47.31:338][968]LogMemory: Process Virtual Memory: 2497.15 MB used, 2561.22 MB peak
+[2016.05.31-11.47.31:338][968]LogMemory: Physical Memory: 5218.40 MB used, 16312.00 MB total
+[2016.05.31-11.47.31:338][968]LogMemory: Virtual Memory: 3196.66 MB used, 134217728.00 MB total
+[2016.05.31-11.47.31:338][968]LogMemory: 
+[2016.05.31-11.47.31:338][968]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.47.31:736][968]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.47.31:736][968]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.47.31:741][968]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.47.31
+[2016.05.31-11.47.31:742][968]LogWorld: Bringing up level for play took: 0.005290
+[2016.05.31-11.47.31:742][968]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.47.31:743][968]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.47.35:978][398]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.47.35:978][398]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.47.36:006][398]Cmd: MEM
+[2016.05.31-11.47.36:021][398]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.47.36:022][398]LogMemory: Process Physical Memory: 1471.91 MB used, 1477.59 MB peak
+[2016.05.31-11.47.36:022][398]LogMemory: Process Virtual Memory: 2498.60 MB used, 2565.52 MB peak
+[2016.05.31-11.47.36:022][398]LogMemory: Physical Memory: 5216.92 MB used, 16312.00 MB total
+[2016.05.31-11.47.36:022][398]LogMemory: Virtual Memory: 3200.66 MB used, 134217728.00 MB total
+[2016.05.31-11.47.36:022][398]LogMemory: 
+[2016.05.31-11.47.36:022][398]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.47.36:451][398]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.47.36:451][398]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.47.36:456][398]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.47.36
+[2016.05.31-11.47.36:457][398]LogWorld: Bringing up level for play took: 0.005304
+[2016.05.31-11.47.36:458][398]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.47.36:459][398]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.47.39:031][660]LogNet: Browse: /Game/Start
+[2016.05.31-11.47.39:031][660]LogLoad: LoadMap: /Game/Start
+[2016.05.31-11.47.39:059][660]Cmd: MEM
+[2016.05.31-11.47.39:075][660]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.47.39:075][660]LogMemory: Process Physical Memory: 1472.60 MB used, 1477.59 MB peak
+[2016.05.31-11.47.39:075][660]LogMemory: Process Virtual Memory: 2557.25 MB used, 2565.52 MB peak
+[2016.05.31-11.47.39:075][660]LogMemory: Physical Memory: 5216.77 MB used, 16312.00 MB total
+[2016.05.31-11.47.39:075][660]LogMemory: Virtual Memory: 3252.66 MB used, 134217728.00 MB total
+[2016.05.31-11.47.39:075][660]LogMemory: 
+[2016.05.31-11.47.39:075][660]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.47.39:075][660]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.47.39:077][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001667s)
+[2016.05.31-11.47.39:077][660]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.47.39:077][660]LogPlayLevel: PIE: World Init took: (0.000447s)
+[2016.05.31-11.47.39:077][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002267s)
+[2016.05.31-11.47.39:077][660]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.47.39:079][660]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.47.39
+[2016.05.31-11.47.39:079][660]LogWorld: Bringing up level for play took: 0.000957
+[2016.05.31-11.47.39:079][660]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.47.39:107][660]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_20
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.47.39:107][660]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.47.39:107][660]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_20
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.47.39:108][660]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.47.45:725][228]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.47.45:725][228]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.47.45:761][228]Cmd: MEM
+[2016.05.31-11.47.45:777][228]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.47.45:777][228]LogMemory: Process Physical Memory: 1471.95 MB used, 1478.58 MB peak
+[2016.05.31-11.47.45:777][228]LogMemory: Process Virtual Memory: 2497.95 MB used, 2589.31 MB peak
+[2016.05.31-11.47.45:777][228]LogMemory: Physical Memory: 5221.60 MB used, 16312.00 MB total
+[2016.05.31-11.47.45:777][228]LogMemory: Virtual Memory: 3220.73 MB used, 134217728.00 MB total
+[2016.05.31-11.47.45:777][228]LogMemory: 
+[2016.05.31-11.47.45:778][228]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.47.46:177][228]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.47.46:177][228]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.47.46:182][228]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.47.46
+[2016.05.31-11.47.46:183][228]LogWorld: Bringing up level for play took: 0.005358
+[2016.05.31-11.47.46:184][228]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.47.46:184][228]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.47.49:052][520]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.47.49:085][520]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.16:313][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Start' took 0.030
+[2016.05.31-11.51.16:345][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/MiniMapWG] ([1] browsable assets)...
+[2016.05.31-11.51.16:345][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/MiniMapWG]
+[2016.05.31-11.51.16:345][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MiniMapWG" FILE="../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/BP/MiniMapWG_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.31-11.51.16:762][ 48]LogSavePackage: Save=133.83ms
+[2016.05.31-11.51.16:762][ 48]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MiniMapWG_Auto145AE54524692E8F4FB2BEFB2386F790A.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/BP/MiniMapWG_Auto1.uasset'
+[2016.05.31-11.51.16:807][ 48]LogSavePackage: Total save time: 461.05ms
+[2016.05.31-11.51.16:807][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Saved/Autosaves/Game/BP/MiniMapWG_Auto1.uasset
+[2016.05.31-11.51.16:807][ 48]LogFileHelpers: Auto-saving content packages took 0.494
+[2016.05.31-11.51.36:805][ 35]BlueprintLog: New page: MiniMapWG 컴파일
+[2016.05.31-11.51.36:897][ 35]BlueprintEditorCompileResults: 정보 [1686.69] MiniMapWG 컴파일에 성공했습니다! [소요시간 92 ms]
+[2016.05.31-11.51.38:115][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.38:115][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.31-11.51.38:115][155]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:51:38)
+[2016.05.31-11.51.38:116][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.51.38:117][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001700s)
+[2016.05.31-11.51.38:118][155]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.51.38:118][155]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2016.05.31-11.51.38:118][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002332s)
+[2016.05.31-11.51.38:148][155]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.51.38:165][155]LogInit: FAudioDevice initialized.
+[2016.05.31-11.51.38:196][155]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.51.38:197][155]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.51.38
+[2016.05.31-11.51.38:197][155]LogWorld: Bringing up level for play took: 0.000977
+[2016.05.31-11.51.38:226][155]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_21
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.51.38:226][155]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.51.38:226][155]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_21
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.51.38:226][155]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.51.39:193][155]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.065
+[2016.05.31-11.51.39:193][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.39:898][222]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.51.39:898][222]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.51.39:936][222]Cmd: MEM
+[2016.05.31-11.51.39:952][222]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.51.39:952][222]LogMemory: Process Physical Memory: 1496.38 MB used, 1496.96 MB peak
+[2016.05.31-11.51.39:952][222]LogMemory: Process Virtual Memory: 2574.80 MB used, 2589.31 MB peak
+[2016.05.31-11.51.39:952][222]LogMemory: Physical Memory: 5257.71 MB used, 16312.00 MB total
+[2016.05.31-11.51.39:952][222]LogMemory: Virtual Memory: 3287.05 MB used, 134217728.00 MB total
+[2016.05.31-11.51.39:952][222]LogMemory: 
+[2016.05.31-11.51.39:952][222]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.51.40:352][222]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.51.40:352][222]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.51.40:357][222]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.51.40
+[2016.05.31-11.51.40:358][222]LogWorld: Bringing up level for play took: 0.005518
+[2016.05.31-11.51.40:359][222]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.51.40:359][222]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.51.42:328][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.42:359][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.50:468][236]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14925.EdGraphPin_239527''
+[2016.05.31-11.51.56:270][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.56:270][795]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.51.56:279][795]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.51.56:355][795]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2016.05.31-11.51.56:372][795]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:51:56)
+[2016.05.31-11.51.56:372][795]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.51.56:375][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001750s)
+[2016.05.31-11.51.56:375][795]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.51.56:375][795]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.05.31-11.51.56:375][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002418s)
+[2016.05.31-11.51.56:405][795]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.51.56:422][795]LogInit: FAudioDevice initialized.
+[2016.05.31-11.51.56:454][795]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.51.56:456][795]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.51.56
+[2016.05.31-11.51.56:456][795]LogWorld: Bringing up level for play took: 0.001071
+[2016.05.31-11.51.56:484][795]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_22
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.51.56:484][795]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.51.56:484][795]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_22
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.51.56:484][795]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.51.57:437][795]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 1.308
+[2016.05.31-11.51.57:437][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.51.58:818][921]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.51.58:818][921]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.51.58:855][921]Cmd: MEM
+[2016.05.31-11.51.58:871][921]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.51.58:871][921]LogMemory: Process Physical Memory: 1497.44 MB used, 1501.18 MB peak
+[2016.05.31-11.51.58:871][921]LogMemory: Process Virtual Memory: 2576.29 MB used, 2641.48 MB peak
+[2016.05.31-11.51.58:871][921]LogMemory: Physical Memory: 5255.08 MB used, 16312.00 MB total
+[2016.05.31-11.51.58:871][921]LogMemory: Virtual Memory: 3284.12 MB used, 134217728.00 MB total
+[2016.05.31-11.51.58:871][921]LogMemory: 
+[2016.05.31-11.51.58:871][921]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.51.59:270][921]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.51.59:270][921]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.51.59:276][921]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.51.59
+[2016.05.31-11.51.59:276][921]LogWorld: Bringing up level for play took: 0.005317
+[2016.05.31-11.51.59:277][921]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.51.59:278][921]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.52.02:487][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.52.02:520][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.52.05:293][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.52.05:293][482]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.52.05:303][482]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.52.05:377][482]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2016.05.31-11.52.05:395][482]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:52:05)
+[2016.05.31-11.52.05:395][482]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.52.05:397][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2016.05.31-11.52.05:397][482]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.52.05:397][482]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2016.05.31-11.52.05:397][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002347s)
+[2016.05.31-11.52.05:427][482]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.52.05:444][482]LogInit: FAudioDevice initialized.
+[2016.05.31-11.52.05:474][482]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.52.05:475][482]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.52.05
+[2016.05.31-11.52.05:476][482]LogWorld: Bringing up level for play took: 0.001100
+[2016.05.31-11.52.05:503][482]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_23
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.52.05:503][482]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.52.05:504][482]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_23
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.52.05:504][482]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.52.06:448][482]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.319
+[2016.05.31-11.52.06:448][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.52.07:457][571]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.52.07:457][571]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.52.07:493][571]Cmd: MEM
+[2016.05.31-11.52.07:509][571]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.52.07:509][571]LogMemory: Process Physical Memory: 1511.83 MB used, 1511.84 MB peak
+[2016.05.31-11.52.07:509][571]LogMemory: Process Virtual Memory: 2591.33 MB used, 2642.40 MB peak
+[2016.05.31-11.52.07:509][571]LogMemory: Physical Memory: 5264.25 MB used, 16312.00 MB total
+[2016.05.31-11.52.07:509][571]LogMemory: Virtual Memory: 3298.25 MB used, 134217728.00 MB total
+[2016.05.31-11.52.07:509][571]LogMemory: 
+[2016.05.31-11.52.07:509][571]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.52.07:912][571]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.52.07:913][571]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.52.07:918][571]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.52.07
+[2016.05.31-11.52.07:919][571]LogWorld: Bringing up level for play took: 0.005468
+[2016.05.31-11.52.07:919][571]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.52.07:920][571]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.52.11:949][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.52.11:981][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.53.40:537][931]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14925.EdGraphPin_250028''
+[2016.05.31-11.53.53:547][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.53.53:547][299]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2016.05.31-11.53.53:557][299]LogPlayLevel: [PlayLevel] Compiling MiniMapWG before play...
+[2016.05.31-11.53.53:639][299]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
+[2016.05.31-11.53.53:664][299]PIE: New page: PIE 세션: Start (2016. 6. 1. 오전 5:53:53)
+[2016.05.31-11.53.53:664][299]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.53.53:666][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001798s)
+[2016.05.31-11.53.53:667][299]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.53.53:667][299]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2016.05.31-11.53.53:667][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002524s)
+[2016.05.31-11.53.53:697][299]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.31-11.53.53:714][299]LogInit: FAudioDevice initialized.
+[2016.05.31-11.53.53:748][299]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.53.53:749][299]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.53.53
+[2016.05.31-11.53.53:749][299]LogWorld: Bringing up level for play took: 0.001010
+[2016.05.31-11.53.53:777][299]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_24
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.53.53:777][299]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.53.53:777][299]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_24
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.53.53:777][299]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.53.54:725][299]PIE: 정보 /Game/UEDPIE_0_Start 에 대한 에디터에서 플레이 시작 시간: 0.596
+[2016.05.31-11.53.54:725][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.53.55:528][380]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.53.55:528][380]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.53.55:565][380]Cmd: MEM
+[2016.05.31-11.53.55:581][380]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.53.55:581][380]LogMemory: Process Physical Memory: 1537.06 MB used, 1538.91 MB peak
+[2016.05.31-11.53.55:581][380]LogMemory: Process Virtual Memory: 2615.05 MB used, 2657.80 MB peak
+[2016.05.31-11.53.55:581][380]LogMemory: Physical Memory: 5297.23 MB used, 16312.00 MB total
+[2016.05.31-11.53.55:581][380]LogMemory: Virtual Memory: 3336.40 MB used, 134217728.00 MB total
+[2016.05.31-11.53.55:581][380]LogMemory: 
+[2016.05.31-11.53.55:581][380]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.53.55:982][380]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.53.55:983][380]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.53.55:988][380]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.53.55
+[2016.05.31-11.53.55:989][380]LogWorld: Bringing up level for play took: 0.005469
+[2016.05.31-11.53.55:989][380]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.53.55:990][380]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.54.02:055][ 73]LogNet: Browse: /Game/Stage_1
+[2016.05.31-11.54.02:055][ 73]LogLoad: LoadMap: /Game/Stage_1
+[2016.05.31-11.54.02:082][ 73]Cmd: MEM
+[2016.05.31-11.54.02:098][ 73]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.54.02:098][ 73]LogMemory: Process Physical Memory: 1536.07 MB used, 1541.97 MB peak
+[2016.05.31-11.54.02:098][ 73]LogMemory: Process Virtual Memory: 2609.43 MB used, 2679.35 MB peak
+[2016.05.31-11.54.02:098][ 73]LogMemory: Physical Memory: 5288.81 MB used, 16312.00 MB total
+[2016.05.31-11.54.02:098][ 73]LogMemory: Virtual Memory: 3344.40 MB used, 134217728.00 MB total
+[2016.05.31-11.54.02:098][ 73]LogMemory: 
+[2016.05.31-11.54.02:098][ 73]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.54.02:534][ 73]LogAIModule: Creating AISystem for world Stage_1
+[2016.05.31-11.54.02:534][ 73]LogWorld: Game class is 'MyGameMode_C'
+[2016.05.31-11.54.02:539][ 73]LogWorld: Bringing World /Game/UEDPIE_0_Stage_1.Stage_1 up for play (max tick rate 0) at 2016.05.31-20.54.02
+[2016.05.31-11.54.02:540][ 73]LogWorld: Bringing up level for play took: 0.005570
+[2016.05.31-11.54.02:541][ 73]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.54.02:541][ 73]LogStreaming:Warning: Failed to read file '../../../../../../Programming/unreal/Cube/Cube/Saved//SaveGames/Cube.sav' error.
+[2016.05.31-11.54.04:968][345]LogNet: Browse: /Game/Start
+[2016.05.31-11.54.04:968][345]LogLoad: LoadMap: /Game/Start
+[2016.05.31-11.54.04:996][345]Cmd: MEM
+[2016.05.31-11.54.05:012][345]LogMemory: Platform Memory Stats for Windows
+[2016.05.31-11.54.05:012][345]LogMemory: Process Physical Memory: 1539.43 MB used, 1541.97 MB peak
+[2016.05.31-11.54.05:012][345]LogMemory: Process Virtual Memory: 2675.79 MB used, 2679.35 MB peak
+[2016.05.31-11.54.05:012][345]LogMemory: Physical Memory: 5286.57 MB used, 16312.00 MB total
+[2016.05.31-11.54.05:012][345]LogMemory: Virtual Memory: 3398.46 MB used, 134217728.00 MB total
+[2016.05.31-11.54.05:012][345]LogMemory: 
+[2016.05.31-11.54.05:012][345]Allocator Stats for TBB: (not implemented)
+[2016.05.31-11.54.05:012][345]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Start
+[2016.05.31-11.54.05:014][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001749s)
+[2016.05.31-11.54.05:014][345]LogAIModule: Creating AISystem for world Start
+[2016.05.31-11.54.05:014][345]LogPlayLevel: PIE: World Init took: (0.000447s)
+[2016.05.31-11.54.05:015][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Start.Start to /Game/UEDPIE_0_Start.Start (0.002357s)
+[2016.05.31-11.54.05:015][345]LogWorld: Game class is 'StartGameMode_C'
+[2016.05.31-11.54.05:016][345]LogWorld: Bringing World /Game/UEDPIE_0_Start.Start up for play (max tick rate 0) at 2016.05.31-20.54.05
+[2016.05.31-11.54.05:016][345]LogWorld: Bringing up level for play took: 0.000942
+[2016.05.31-11.54.05:017][345]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.05.31-11.54.05:044][345]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_25
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:013C
+[2016.05.31-11.54.05:044][345]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.54.05:044][345]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	MyHUD_C /Game/UEDPIE_0_Start.Start:PersistentLevel.MyHUD_C_25
+	Function /Game/BP/MyHUD.MyHUD_C:ExecuteUbergraph_MyHUD:0058
+[2016.05.31-11.54.05:044][345]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_MyHUD' 노드: Draw Text 그래프: EventGraph 오브젝트: MyHUD
+[2016.05.31-11.54.07:429][501]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.54.07:462][501]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Start.Start:PersistentLevel' has LevelScriptBlueprint '/Game/Start.Start:PersistentLevel.Start' with GeneratedClass '/Game/Start.Start_C' with ClassGeneratedBy '/Game/Start.Start:PersistentLevel.Start'
+[2016.05.31-11.57.29:567][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/MiniMapWG" FILE="../../../../../../Programming/unreal/Cube/Cube/Content/BP/MiniMapWG.uasset" SILENT=true
+[2016.05.31-11.57.29:710][650]LogSavePackage: Save=127.29ms
+[2016.05.31-11.57.29:710][650]LogSavePackage: Moving '../../../../../../Programming/unreal/Cube/Cube/Saved/MiniMapWG27D2ADC24BA1C2DBFA0F84A701A5BAB0.tmp' to '../../../../../../Programming/unreal/Cube/Cube/Content/BP/MiniMapWG.uasset'
+[2016.05.31-11.57.29:713][650]LogSavePackage: Total save time: 143.87ms
+[2016.05.31-11.57.29:713][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Programming/unreal/Cube/Cube/Content/BP/MiniMapWG.uasset
+[2016.05.31-11.57.29:886][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.31-11.57.29:936][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.31-11.57.29:985][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.31-11.57.30:051][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.31-11.57.30:198][650]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.05.31-11.57.30:408][651]Cmd: QUIT_EDITOR
+[2016.05.31-11.57.31:239][651]LogExit: Preparing to exit.
+[2016.05.31-11.57.31:699][651]LogExit: Editor shut down
+[2016.05.31-11.57.31:699][651]LogExit: Transaction tracking system shut down
+[2016.05.31-11.57.31:938][651]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.31-11.57.31:938][651]LogExit: Object subsystem successfully closed.
+[2016.05.31-11.57.32:027][651]LogD3D11RHI: Shutdown
+[2016.05.31-11.57.32:027][651]LogD3D11RHI: CleanupD3DDevice
+[2016.05.31-11.57.32:080][651]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.31-11.57.32:124][651]LogDerivedDataCache: Shutdown
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module SequencerWidgets (207)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.31-11.57.32:252][651]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.31-11.57.32:253][651]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.31-11.57.32:253][651]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.31-11.57.32:253][651]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.31-11.57.32:253][651]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.31-11.57.32:263][651]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.31-11.57.32:263][651]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.31-11.57.32:268][651]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.31-11.57.32:279][651]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.31-11.57.32:291][651]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.31-11.57.32:294][651]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.31-11.57.32:294][651]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.31-11.57.32:294][651]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.31-11.57.32:294][651]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.31-11.57.32:923][651]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.31-11.57.33:045][651]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.31-11.57.33:049][651]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.31-11.57.33:058][651]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.31-11.57.33:058][651]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.31-11.57.33:058][651]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.31-11.57.33:100][651]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.31-11.57.33:100][651]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.31-11.57.33:107][651]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.31-11.57.33:115][651]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.31-11.57.33:115][651]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.31-11.57.33:120][651]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.31-11.57.33:120][651]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.31-11.57.33:131][651]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.31-11.57.33:131][651]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.31-11.57.33:131][651]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.31-11.57.33:137][651]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.31-11.57.33:326][651]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.31-11.57.33:331][651]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.31-11.57.33:338][651]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.31-11.57.33:339][651]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.31-11.57.33:339][651]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.31-11.57.33:339][651]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.31-11.57.33:340][651]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.31-11.57.33:474][651]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.31-11.57.33:475][651]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.31-11.57.33:486][651]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.31-11.57.33:587][651]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.31-11.57.33:599][651]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.31-11.57.33:613][651]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.31-11.57.33:613][651]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.31-11.57.33:613][651]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.31-11.57.33:624][651]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.31-11.57.33:624][651]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.31-11.57.33:625][651]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.31-11.57.33:625][651]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.31-11.57.33:626][651]LogDerivedDataCache: Shutdown
+[2016.05.31-11.57.33:626][651]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.31-11.57.33:628][651]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.31-11.57.35:631][651]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.31-11.57.35:678][651]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.31-11.57.35:686][651]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.31-11.57.35:686][651]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.31-11.57.35:686][651]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.31-11.57.35:686][651]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.31-11.57.35:686][651]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.31-11.57.35:696][651]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.31-11.57.35:708][651]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.31-11.57.35:723][651]LogExit: Exiting.
+[2016.05.31-11.57.35:724][651]Log file closed, 05/31/16 20:57:35
